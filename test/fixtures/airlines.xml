@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airlines current-page="1" total-entries="504" total-pages="17">
+  <airline>
+    <callsign>OMNI-EXPRESS</callsign>
+    <country>US</country>
+    <iata-id>OY</iata-id>
+    <icao-id>OAE</icao-id>
+    <id>42</id>
+    <name>Omni Air International</name>
+  </airline>
+  <airline>
+    <callsign>COMMUTAIR</callsign>
+    <country>US</country>
+    <iata-id>C5</iata-id>
+    <icao-id>UCA</icao-id>
+    <id>127</id>
+    <name>CommutAir</name>
+  </airline>
+  <airline>
+    <callsign>UNITED</callsign>
+    <country>US</country>
+    <iata-id>UA</iata-id>
+    <icao-id>UAL</icao-id>
+    <id>221</id>
+    <name>United Airlines</name>
+  </airline>
+  <airline>
+    <callsign>AIR TRANSPORT</callsign>
+    <country>US</country>
+    <iata-id>8C</iata-id>
+    <icao-id>ATN</icao-id>
+    <id>400</id>
+    <name>Air Transport International</name>
+  </airline>
+  <airline>
+    <callsign>CHAR-TRAN</callsign>
+    <country>US</country>
+    <iata-id/>
+    <icao-id>CTA</icao-id>
+    <id>415</id>
+    <name>Aero Charter and Transport</name>
+  </airline>
+  <airline>
+    <callsign>FLO WEST</callsign>
+    <country>US</country>
+    <iata-id>RF</iata-id>
+    <icao-id>FWL</icao-id>
+    <id>419</id>
+    <name>Florida West International Airways</name>
+  </airline>
+  <airline>
+    <callsign>KEY LIME</callsign>
+    <country>US</country>
+    <iata-id/>
+    <icao-id>LYM</icao-id>
+    <id>544</id>
+
+
+
+    <name>Key Lime Air</name>
+  </airline>
+  <airline>
+    <callsign>FOUR STAR</callsign>
+    <country>VI</country>
+    <iata-id>HK</iata-id>
+    <icao-id>FSC</icao-id>
+    <id>577</id>
+    <name>Four Star Air Cargo</name>
+  </airline>
+  <airline>
+    <callsign>GIANT</callsign>
+    <country>US</country>
+    <iata-id>5Y</iata-id>
+    <icao-id>GTI</icao-id>
+    <id>588</id>
+    <name>Atlas Air</name>
+  </airline>
+  <airline>
+    <callsign>ERAH</callsign>
+    <country>US</country>
+    <iata-id>7H</iata-id>
+    <icao-id>ERH</icao-id>
+    <id>613</id>
+    <name>Era Aviation</name>
+  </airline>
+  <airline>
+    <callsign>BIG A</callsign>
+    <country>US</country>
+    <iata-id>JW</iata-id>
+    <icao-id>APW</icao-id>
+    <id>628</id>
+    <name>Arrow Air</name>
+  </airline>
+  <airline>
+    <callsign>NORTHWEST</callsign>
+    <country>US</country>
+    <iata-id>NW</iata-id>
+    <icao-id>NWA</icao-id>
+    <id>698</id>
+    <name>Northwest Airlines</name>
+  </airline>
+  <airline>
+    <callsign>AIR SPUR</callsign>
+    <country>US</country>
+    <iata-id/>
+    <icao-id>CPT</icao-id>
+    <id>718</id>
+    <name>Corporate Air</name>
+  </airline>
+  <airline>
+    <callsign>COMPASS ROSE</callsign>
+    <country>US</country>
+    <iata-id>CP</iata-id>
+    <icao-id>CPZ</icao-id>
+    <id>753</id>
+    <name>Compass Airlines</name>
+  </airline>
+  <airline>
+    <callsign>TSUNAMI</callsign>
+    <country>US</country>
+    <iata-id>LW</iata-id>
+    <icao-id>ANV</icao-id>
+    <id>764</id>
+    <name>Pacific Wings</name>
+  </airline>
+  <airline>
+    <callsign>RYAN AIR</callsign>
+    <country>US</country>
+    <iata-id>7S</iata-id>
+    <icao-id>RYA</icao-id>
+    <id>779</id>
+    <name>Arctic Transportation Services</name>
+  </airline>
+  <airline>
+    <callsign>HORIZON AIR</callsign>
+    <country>US</country>
+    <iata-id>QX</iata-id>
+    <icao-id>QXE</icao-id>
+    <id>829</id>
+    <name>Horizon Air</name>
+  </airline>
+  <airline>
+    <callsign>BEMIDJI</callsign>
+    <country>US</country>
+    <iata-id>CH</iata-id>
+    <icao-id>BMJ</icao-id>
+    <id>831</id>
+    <name>Bemidji Airlines</name>
+  </airline>
+  <airline>
+    <callsign>IRON AIR</callsign>
+    <country>US</country>
+    <iata-id/>
+    <icao-id>IRO</icao-id>
+    <id>903</id>
+    <name>CSA Air</name>
+  </airline>
+  <airline>
+    <callsign>MOUNTAIN</callsign>
+    <country>US</country>
+    <iata-id>C2</iata-id>
+    <icao-id>MTN</icao-id>
+    <id>993</id>
+    <name>Mountain Air Cargo</name>
+  </airline>
+  <airline>
+    <callsign>AMERISTAR</callsign>
+    <country>US</country>
+    <iata-id/>
+    <icao-id>AJI</icao-id>
+    <id>1031</id>
+    <name>Ameristar Jet Charter</name>
+  </airline>
+  <airline>
+    <callsign>MARTEX</callsign>
+    <country>US</country>
+    <iata-id/>
+    <icao-id>MRA</icao-id>
+    <id>1059</id>
+    <name>Martinaire</name>
+  </airline>
+  <airline>
+    <callsign>AMERIJET</callsign>
+    <country>US</country>
+    <iata-id>M6</iata-id>
+    <icao-id>AJT</icao-id>
+    <id>1102</id>
+    <name>Amerijet International</name>
+  </airline>
+  <airline>
+    <callsign>COLGAN</callsign>
+    <country>US</country>
+    <iata-id>9L</iata-id>
+    <icao-id>CJC</icao-id>
+    <id>1110</id>
+    <name>Colgan Air</name>
+  </airline>
+  <airline>
+    <callsign>HUFA</callsign>
+    <country>US</country>
+    <iata-id>2G</iata-id>
+    <icao-id>MRR</icao-id>
+    <id>1192</id>
+    <name>San Juan Airlines</name>
+  </airline>
+  <airline>
+    <callsign>LAKES AIR</callsign>
+    <country>US</country>
+    <iata-id>ZK</iata-id>
+    <icao-id>GLA</icao-id>
+    <id>1200</id>
+    <name>Great Lakes Aviation</name>
+  </airline>
+  <airline>
+    <callsign>EXECJET</callsign>
+    <country>US</country>
+    <iata-id>1I</iata-id>
+    <icao-id>EJA</icao-id>
+    <id>1244</id>
+    <name>Netjets Aviation</name>
+  </airline>
+  <airline>
+    <callsign>WATERSKI</callsign>
+    <country>US</country>
+    <iata-id>AX</iata-id>
+    <icao-id>LOF</icao-id>
+    <id>1322</id>
+    <name>Trans States Airlines</name>
+  </airline>
+  <airline>
+    <callsign>AIR SUNSHINE</callsign>
+    <country>US</country>
+    <iata-id>YI</iata-id>
+    <icao-id>RSI</icao-id>
+    <id>1433</id>
+    <name>Air Sunshine</name>
+  </airline>
+  <airline>
+    <callsign>CHAUTAUQUA</callsign>
+    <country>US</country>
+    <iata-id>RP</iata-id>
+    <icao-id>CHQ</icao-id>
+    <id>1464</id>
+    <name>Chautauqua Airlines</name>
+  </airline>
+</airlines>

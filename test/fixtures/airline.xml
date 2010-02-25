@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <callsign>UNITED</callsign>
+  <country>US</country>
+  <iata-id>UA</iata-id>
+  <icao-id>UAL</icao-id>
+  <id>221</id>
+  <name>United Airlines</name>
+</airline>

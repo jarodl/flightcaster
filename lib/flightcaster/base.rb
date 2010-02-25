@@ -11,12 +11,24 @@ module FlightCaster
       perform_get('/airlines.xml', params)
     end
 
+    def airline(id, params={})
+      perform_get("/airlines/#{id}.xml", params)
+    end
+
     def airports(params={})
       perform_get('/airports.xml', params)
     end
 
+    def airport(id, params={})
+      perform_get("/airports/#{id}.xml", params)
+    end
+
     def flights(params={})
       perform_get('/flights.xml', params)
+    end
+
+    def flight(id, params={})
+      perform_get("/flights/#{id}.xml", params)
     end
 
     private

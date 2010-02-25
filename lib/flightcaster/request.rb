@@ -20,7 +20,10 @@ module FlightCaster
     def self.make_friendly(response)
       raise_errors(response)
       data = parse(response)
-      Hashie::Mash.new(data).shift[1]
+      h = Hashie::Mash.new(data)
+      # since the hash looks like { :airlines => { stuff we want } },
+      # we just grab the value from the first key
+      h[h.keys[0]]
     end
 
     def self.raise_errors(response)

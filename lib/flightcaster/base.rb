@@ -8,15 +8,15 @@ module FlightCaster
     end
 
     def airlines(params={})
-      perform_get('/airlines.xml', params).airlines
+      perform_get('/airlines.xml', params)
     end
 
     def airports(params={})
-      perform_get('/airports.xml', params).airports
+      perform_get('/airports.xml', params)
     end
 
     def flights(params={})
-      perform_get('/flights.xml', params).flights
+      perform_get('/flights.xml', params)
     end
 
     private

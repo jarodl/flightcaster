@@ -20,7 +20,7 @@ module FlightCaster
     def self.make_friendly(response)
       raise_errors(response)
       data = parse(response)
-      Hashie::Mash.new(data)
+      Hashie::Mash.new(data).shift[1]
     end
 
     def self.raise_errors(response)

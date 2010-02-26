@@ -1,0 +1,440 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.39
+Date: Thu, 25 Feb 2010 18:04:00 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+X-FlightCaster-API-Version-Deprecated: 0.1.0
+X-Runtime: 37
+ETag: "94fffd0688b95a0384bb22963a4c1399"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 10119
+X-Varnish: 677522646
+Age: 0
+Via: 1.1 varnish
+
+<?xml version="1.0" encoding="utf-8"?>
+<airports current-page="1" total-entries="2026" total-pages="68">
+  <airport>
+    <city>New York</city>
+    <country>US</country>
+    <elevation>3</elevation>
+    <faa-id>6N5</faa-id>
+    <iata-id>TSS</iata-id>
+    <icao-id/>
+    <id>4931</id>
+    <latitude>40.7426017</latitude>
+    <longitude>-73.9720831</longitude>
+    <name>East 34th Street Heliport</name>
+    <state>NY</state>
+    <time-zone>America/New_York</time-zone>
+  </airport>
+  <airport>
+    <city>Palmer</city>
+    <country>US</country>
+    <elevation>74</elevation>
+    <faa-id>PAQ</faa-id>
+    <iata-id>PAQ</iata-id>
+    <icao-id>PAAQ</icao-id>
+    <id>4932</id>
+    <latitude>61.5949136</latitude>
+    <longitude>-149.0887114</longitude>
+    <name>Palmer Municipal Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Barter island lrrs</city>
+
+
+
+    <country>US</country>
+    <elevation>1</elevation>
+    <faa-id>BTI</faa-id>
+    <iata-id>BTI</iata-id>
+    <icao-id>PABA</icao-id>
+    <id>4933</id>
+    <latitude>70.1339886</latitude>
+    <longitude>-143.5818669</longitude>
+    <name>Barter Island LRRS Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Bethel</city>
+    <country>US</country>
+    <elevation>38</elevation>
+    <faa-id>BET</faa-id>
+    <iata-id>BET</iata-id>
+    <icao-id>PABE</icao-id>
+    <id>4934</id>
+    <latitude>60.7797778</latitude>
+    <longitude>-161.838</longitude>
+    <name>Bethel Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Delta junction ft greely</city>
+    <country>US</country>
+    <elevation>393</elevation>
+    <faa-id>BIG</faa-id>
+    <iata-id>BIG</iata-id>
+    <icao-id>PABI</icao-id>
+    <id>4935</id>
+    <latitude>63.9950432</latitude>
+    <longitude>-145.7200798</longitude>
+    <name>Allen Army Airfield</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Clear</city>
+    <country>US</country>
+    <elevation>168</elevation>
+    <faa-id>Z84</faa-id>
+    <iata-id>Z84</iata-id>
+    <icao-id>PACL</icao-id>
+    <id>4936</id>
+    <latitude>64.3012036</latitude>
+    <longitude>-149.1201436</longitude>
+    <name>Clear Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Coldfoot</city>
+    <country>US</country>
+    <elevation>318</elevation>
+    <faa-id>CXF</faa-id>
+    <iata-id>CXF</iata-id>
+    <icao-id>PACX</icao-id>
+    <id>4937</id>
+    <latitude>67.2521789</latitude>
+    <longitude>-150.2038783</longitude>
+    <name>Coldfoot Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Nabesna</city>
+    <country>US</country>
+    <elevation/>
+    <faa-id>IBN</faa-id>
+    <iata-id/>
+    <icao-id>PABN</icao-id>
+    <id>4938</id>
+    <latitude>62.4018461</latitude>
+    <longitude>-142.9954681</longitude>
+    <name>Devils Mountain Lodge Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Birchwood</city>
+    <country>US</country>
+    <elevation>25</elevation>
+    <faa-id>BCV</faa-id>
+    <iata-id/>
+    <icao-id>PABV</icao-id>
+    <id>4939</id>
+    <latitude>61.4160833</latitude>
+    <longitude>-149.5083056</longitude>
+    <name>Birchwood Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Scammon Bay</city>
+    <country>US</country>
+    <elevation>4</elevation>
+    <faa-id>SCM</faa-id>
+    <iata-id>SCM</iata-id>
+    <icao-id>PACM</icao-id>
+    <id>4940</id>
+    <latitude>61.8445411</latitude>
+    <longitude>-165.5737493</longitude>
+    <name>Scammon Bay Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Cape Spencer</city>
+    <country>US</country>
+    <elevation>26</elevation>
+    <faa-id>CSP</faa-id>
+    <iata-id>CSP</iata-id>
+    <icao-id>PACA</icao-id>
+    <id>4941</id>
+    <latitude>58.1990686</latitude>
+    <longitude>-136.6388106</longitude>
+    <name>Cape Spencer Coast Guard Heliport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Cold Bay</city>
+    <country>US</country>
+    <elevation>29</elevation>
+    <faa-id>CDB</faa-id>
+    <iata-id>CDB</iata-id>
+    <icao-id>PACD</icao-id>
+    <id>4942</id>
+    <latitude>55.2060606</latitude>
+    <longitude>-162.7254369</longitude>
+    <name>Cold Bay Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Circle</city>
+    <country>US</country>
+    <elevation>187</elevation>
+    <faa-id>CRC</faa-id>
+    <iata-id>IRC</iata-id>
+    <icao-id>PACR</icao-id>
+    <id>4943</id>
+    <latitude>65.8279167</latitude>
+    <longitude>-144.0761972</longitude>
+    <name>Circle City Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Central</city>
+    <country>US</country>
+    <elevation>286</elevation>
+    <faa-id>CEM</faa-id>
+    <iata-id>CEM</iata-id>
+    <icao-id>PACE</icao-id>
+    <id>4944</id>
+    <latitude>65.5739444</latitude>
+    <longitude>-144.7808889</longitude>
+    <name>Central Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Chalkyitsik</city>
+    <country>US</country>
+    <elevation>166</elevation>
+    <faa-id>CIK</faa-id>
+    <iata-id>CIK</iata-id>
+    <icao-id>PACI</icao-id>
+    <id>4945</id>
+    <latitude>66.6450222</latitude>
+    <longitude>-143.7399303</longitude>
+    <name>Chalkyitsik Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Unimak Island</city>
+    <country>US</country>
+    <elevation>89</elevation>
+    <faa-id>26AK</faa-id>
+    <iata-id/>
+    <icao-id>PACS</icao-id>
+    <id>4946</id>
+    <latitude>54.5824311</latitude>
+    <longitude>-164.9144808</longitude>
+    <name>Cape Sarichef Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Cordova</city>
+    <country>US</country>
+    <elevation>16</elevation>
+    <faa-id>CDV</faa-id>
+    <iata-id>CDV</iata-id>
+    <icao-id>PACV</icao-id>
+    <id>4947</id>
+    <latitude>60.4917778</latitude>
+    <longitude>-145.4775556</longitude>
+    <name>Merle K (Mudhole) Smith Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Yakataga</city>
+    <country>US</country>
+    <elevation>4</elevation>
+    <faa-id>CYT</faa-id>
+    <iata-id>CYT</iata-id>
+    <icao-id>PACY</icao-id>
+    <id>4948</id>
+    <latitude>60.0820125</latitude>
+    <longitude>-142.4934853</longitude>
+    <name>Yakataga Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Cape romanzof</city>
+    <country>US</country>
+    <elevation>139</elevation>
+    <faa-id>CZF</faa-id>
+    <iata-id>CZF</iata-id>
+    <icao-id>PACZ</icao-id>
+    <id>4949</id>
+    <latitude>61.781</latitude>
+    <longitude>-166.0395</longitude>
+    <name>Cape Romanzof LRRS Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Deering</city>
+    <country>US</country>
+    <elevation>6</elevation>
+    <faa-id>DEE</faa-id>
+    <iata-id>DRG</iata-id>
+    <icao-id>PADE</icao-id>
+    <id>4950</id>
+    <latitude>66.0695611</latitude>
+    <longitude>-162.7663675</longitude>
+    <name>Deering Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Slana</city>
+    <country>US</country>
+    <elevation/>
+    <faa-id>DDT</faa-id>
+    <iata-id/>
+    <icao-id>PADT</icao-id>
+    <id>4951</id>
+    <latitude>62.7246119</latitude>
+    <longitude>-143.9205144</longitude>
+    <name>Duffy's Tavern Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Unalaska</city>
+    <country>US</country>
+    <elevation>6</elevation>
+    <faa-id>DUT</faa-id>
+    <iata-id>DUT</iata-id>
+    <icao-id>PADU</icao-id>
+    <id>4952</id>
+    <latitude>53.9001389</latitude>
+    <longitude>-166.5435</longitude>
+    <name>Unalaska Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Anchorage</city>
+    <country>US</country>
+    <elevation>64</elevation>
+    <faa-id>EDF</faa-id>
+    <iata-id>EDF</iata-id>
+    <icao-id>PAED</icao-id>
+    <id>4953</id>
+    <latitude>61.2513472</latitude>
+    <longitude>-149.8065139</longitude>
+    <name>Elmendorf Air Force Base</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Eek</city>
+    <country>US</country>
+    <elevation/>
+    <faa-id>EEK</faa-id>
+    <iata-id>EEK</iata-id>
+    <icao-id>PAEE</icao-id>
+    <id>4954</id>
+    <latitude>60.2136711</latitude>
+    <longitude>-162.0438931</longitude>
+    <name>Eek Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Eagle</city>
+    <country>US</country>
+    <elevation>276</elevation>
+    <faa-id>EAA</faa-id>
+    <iata-id>EAA</iata-id>
+    <icao-id>PAEG</icao-id>
+    <id>4955</id>
+    <latitude>64.7780833</latitude>
+    <longitude>-141.1496111</longitude>
+    <name>Eagle Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Ambler</city>
+    <country>US</country>
+    <elevation/>
+    <faa-id>AFM</faa-id>
+    <iata-id>ABL</iata-id>
+    <icao-id>PAFM</icao-id>
+    <id>4956</id>
+    <latitude>67.1063139</latitude>
+    <longitude>-157.8574722</longitude>
+    <name>Ambler Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Hughes</city>
+    <country>US</country>
+    <elevation>91</elevation>
+    <faa-id>HUS</faa-id>
+    <iata-id>HUS</iata-id>
+    <icao-id>PAHU</icao-id>
+    <id>4957</id>
+    <latitude>66.0390833</latitude>
+    <longitude>-154.2646944</longitude>
+    <name>Hughes Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Cape newenham</city>
+    <country>US</country>
+    <elevation>164</elevation>
+    <faa-id>EHM</faa-id>
+    <iata-id>EHM</iata-id>
+    <icao-id>PAEH</icao-id>
+    <id>4958</id>
+    <latitude>58.6464289</latitude>
+    <longitude>-162.0627775</longitude>
+    <name>Cape Newenham LRRS Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Farewell</city>
+    <country>US</country>
+    <elevation>468</elevation>
+    <faa-id>FWL</faa-id>
+    <iata-id>FWL</iata-id>
+    <icao-id>PAFW</icao-id>
+    <id>4959</id>
+    <latitude>62.5066122</latitude>
+    <longitude>-153.8936189</longitude>
+    <name>Farewell Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+  <airport>
+    <city>Holy cross</city>
+    <country>US</country>
+    <elevation>21</elevation>
+    <faa-id>HCA</faa-id>
+    <iata-id>HCR</iata-id>
+    <icao-id>PAHC</icao-id>
+    <id>4960</id>
+    <latitude>62.1883333</latitude>
+    <longitude>-159.7749167</longitude>
+    <name>Holy Cross Airport</name>
+    <state>AK</state>
+    <time-zone>America/Anchorage</time-zone>
+  </airport>
+</airports>

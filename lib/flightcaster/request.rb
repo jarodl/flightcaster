@@ -8,22 +8,26 @@ module FlightCaster
     end
 
     def self.get(path, params={})
-      uri = full_uri(path)
-      response = HTTParty.get(uri, params)
+      uri = full_uri(path, params)
+      response = HTTParty.get(uri)
       make_friendly(response)
     end
 
-    def self.full_uri(path)
-      "#{API_ROOT}#{path}?api_key=#{@api_key}"
+    def self.full_uri(path, params={})
+      options = expand(params)
+      "#{API_ROOT}#{path}?api_key=#{@api_key}#{options}"
     end
 
     def self.make_friendly(response)
-      raise_errors(response)
-      data = parse(response)
-      h = Hashie::Mash.new(data)
-      # since the hash looks like { :airlines => { stuff we want } },
-      # we just grab the value from the first key
-      h[h.keys[0]]
+      begin
+        raise_errors(response)
+        data = parse(response)
+        h = Hashie::Mash.new(data)
+        # since the hash looks like { :airlines => { stuff we want } },
+        # we just grab the value from the first key
+        h[h.keys[0]]
+      rescue
+      end
     end
 
     def self.raise_errors(response)
@@ -37,6 +41,14 @@ module FlightCaster
 
     def self.parse(response)
       Crack::XML.parse(response.body)
+    end
+
+    def self.expand(params)
+      final = ''
+      params.each do |k, v|
+        final << "&#{k}=#{v}"
+      end
+      final
     end
 
   end

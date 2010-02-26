@@ -12,3 +12,21 @@ require 'flightcaster'
 
 class Test::Unit::TestCase
 end
+
+class FakeRequest
+  def code; end
+
+  def message; end
+end
+
+class NotFoundRequest < FakeRequest
+  def code
+    404
+  end
+end
+
+class OldAPIRequest < FakeRequest
+  def code
+    422
+  end
+end

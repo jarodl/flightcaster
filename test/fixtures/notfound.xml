@@ -1,0 +1,56 @@
+HTTP/1.1 404 Not Found
+Server: nginx/0.6.39
+Date: Fri, 26 Feb 2010 03:09:16 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-FlightCaster-API-Version-Deprecated: 0.1.0
+Cache-Control: no-cache
+Content-Length: 1542
+X-Varnish: 680392775
+Age: 0
+Via: 1.1 varnish
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head>
+        <title>FlightCaster</title>
+        <style type="text/css">
+          .announcement {
+            border:solid 10px #003052;
+            font:14px 'Trebuchet MS', sans-serif;
+            position:absolute;
+            left:50%;
+            top:50%;
+            width:410px;
+            margin-left:-205px;
+            margin-top:-170px;
+          }
+          .announcement h1{margin:0; padding:0;}
+          .announcement h2 {
+            background-color:#3072b7;
+            color:#fff;
+            margin:0;
+            padding:20px;
+          }
+          .announcement p {padding:5px 20px;}
+          .logo {
+            position:absolute;
+            background:transparent url(/images/logo.png) no-repeat scroll 0 0;
+            display:block;
+            height:90px;
+            text-decoration:none;
+            text-indent:-5555px;
+            top:-80px;
+            width:350px;
+	        }
+        </style>
+    </head> 
+    <body>
+        <div class="announcement">
+            <h1><a class="logo" href="/">FlightCaster</a></h1>
+            <h2>Oops&#133; we couldn't find that</h2>
+            <p>You may have mistyped the address or the page may have moved.</p>
+            <p>If you can't find what you're looking for contact us at <a href="mailto:support@flightcaster.com">support@flightcaster.com</a></p>
+        </div>
+    </body>
+</html>

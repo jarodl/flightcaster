@@ -1,0 +1,260 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.39
+Date: Fri, 26 Feb 2010 05:06:36 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+X-FlightCaster-API-Version-Deprecated: 0.1.0
+X-Runtime: 25
+ETag: "9ae9bd689601a99fe3e1d2f062d76ddc"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 5003
+X-Varnish: 2089080135
+Age: 0
+Via: 1.1 varnish
+
+<?xml version="1.0" encoding="utf-8"?>
+<airlines current-page="3" total-entries="504" total-pages="17">
+  <airline>
+    <callsign>BERING AIR</callsign>
+    <country>US</country>
+    <iata-id>8E</iata-id>
+    <icao-id>BRG</icao-id>
+    <id>3267</id>
+    <name>Bering Air</name>
+  </airline>
+  <airline>
+    <callsign>GETAWAY</callsign>
+    <country>US</country>
+    <iata-id>U5</iata-id>
+    <icao-id>GWY</icao-id>
+    <id>3276</id>
+    <name>USA3000 Airlines</name>
+  </airline>
+  <airline>
+
+
+
+    <callsign>FRONTIER AIR</callsign>
+    <country>US</country>
+    <iata-id>2F</iata-id>
+    <icao-id>FTA</icao-id>
+    <id>3291</id>
+    <name>Frontier Flying Service</name>
+  </airline>
+  <airline>
+    <callsign>CHASQUI</callsign>
+    <country>US</country>
+    <iata-id>II</iata-id>
+    <icao-id>CSQ</icao-id>
+    <id>3293</id>
+    <name>IBC Airways</name>
+  </airline>
+  <airline>
+    <callsign>FLEXJET</callsign>
+    <country>US</country>
+    <iata-id/>
+    <icao-id>LXJ</icao-id>
+    <id>3367</id>
+    <name>Bombardier Business Jet Solutions</name>
+  </airline>
+  <airline>
+    <callsign>FREEDOM</callsign>
+    <country>GU</country>
+    <iata-id>FP</iata-id>
+    <icao-id>FRE</icao-id>
+    <id>3417</id>
+    <name>Freedom Air</name>
+  </airline>
+  <airline>
+    <callsign>CONTINENTAL</callsign>
+    <country>US</country>
+    <iata-id>CO</iata-id>
+    <icao-id>COA</icao-id>
+    <id>3438</id>
+    <name>Continental Airlines</name>
+  </airline>
+  <airline>
+    <callsign>FREEDOM AIR</callsign>
+    <country>US</country>
+    <iata-id>F8</iata-id>
+    <icao-id>FRL</icao-id>
+    <id>3448</id>
+    <name>Freedom Airlines</name>
+  </airline>
+  <airline>
+    <callsign>AMFLIGHT</callsign>
+    <country>US</country>
+    <iata-id>A8</iata-id>
+    <icao-id>AMF</icao-id>
+    <id>3490</id>
+    <name>Ameriflight</name>
+  </airline>
+  <airline>
+    <callsign>COMAIR</callsign>
+    <country>US</country>
+    <iata-id>OH</iata-id>
+    <icao-id>COM</icao-id>
+    <id>3501</id>
+    <name>Comair</name>
+  </airline>
+  <airline>
+    <callsign>AIR MIKE</callsign>
+    <country>GU</country>
+    <iata-id>CS</iata-id>
+    <icao-id>CMI</icao-id>
+    <id>3625</id>
+    <name>Continental Micronesia</name>
+  </airline>
+  <airline>
+    <callsign>SOUTHWEST</callsign>
+    <country>US</country>
+    <iata-id>WN</iata-id>
+    <icao-id>SWA</icao-id>
+    <id>3762</id>
+    <name>Southwest Airlines</name>
+  </airline>
+  <airline>
+    <callsign>GEORGIAN</callsign>
+    <country>CA</country>
+    <iata-id>ZX</iata-id>
+    <icao-id>GGN</icao-id>
+    <id>3895</id>
+    <name>Air Georgian</name>
+  </airline>
+  <airline>
+    <callsign>SHASTA</callsign>
+    <country>US</country>
+    <iata-id>L4</iata-id>
+    <icao-id>SSX</icao-id>
+    <id>3896</id>
+    <name>LynxAviation</name>
+  </airline>
+  <airline>
+    <callsign>KLM</callsign>
+    <country>NL</country>
+    <iata-id>WA</iata-id>
+    <icao-id>KLC</icao-id>
+    <id>3897</id>
+    <name>KLM Cityhopper</name>
+  </airline>
+  <airline>
+    <callsign>PORTER</callsign>
+    <country>CA</country>
+    <iata-id>PD</iata-id>
+    <icao-id>POE</icao-id>
+    <id>3898</id>
+    <name>Porter Airlines</name>
+  </airline>
+  <airline>
+    <callsign>SWIFTFLIGHT</callsign>
+    <country>US</country>
+    <iata-id>Q7</iata-id>
+    <icao-id>SWQ</icao-id>
+    <id>3900</id>
+    <name>Swift Air</name>
+  </airline>
+  <airline>
+    <callsign>CONNIE</callsign>
+    <country>US</country>
+    <iata-id>K4</iata-id>
+    <icao-id>CKS</icao-id>
+    <id>3908</id>
+    <name>Kalitta Air</name>
+  </airline>
+  <airline>
+    <callsign>ALPINE AIR</callsign>
+    <country>US</country>
+    <iata-id>5A</iata-id>
+    <icao-id>AIP</icao-id>
+    <id>3933</id>
+    <name>Alpine Air Express</name>
+  </airline>
+  <airline>
+    <callsign>FLAGSHIP</callsign>
+    <country>US</country>
+    <iata-id>9E</iata-id>
+    <icao-id>FLG</icao-id>
+    <id>3941</id>
+    <name>Pinnacle Airlines</name>
+  </airline>
+  <airline>
+    <callsign>EVERGREEN</callsign>
+    <country>US</country>
+    <iata-id>EZ</iata-id>
+    <icao-id>EIA</icao-id>
+    <id>4114</id>
+    <name>Evergreen International Airlines</name>
+  </airline>
+  <airline>
+    <callsign>STAR CHECK</callsign>
+    <country>US</country>
+    <iata-id/>
+    <icao-id>USC</icao-id>
+    <id>4355</id>
+    <name>AirNet Express</name>
+  </airline>
+  <airline>
+    <callsign>ACE AIR</callsign>
+    <country>US</country>
+    <iata-id>KO</iata-id>
+    <icao-id>AER</icao-id>
+    <id>4361</id>
+    <name>Alaska Central Express</name>
+  </airline>
+  <airline>
+    <callsign>EAGLE FLIGHT</callsign>
+    <country>US</country>
+    <iata-id>MQ</iata-id>
+    <icao-id>EGF</icao-id>
+    <id>4370</id>
+    <name>American Eagle</name>
+  </airline>
+  <airline>
+    <callsign>SCENIC</callsign>
+    <country>US</country>
+    <iata-id>YR</iata-id>
+    <icao-id>EGJ</icao-id>
+    <id>4400</id>
+    <name>Scenic Airlines</name>
+  </airline>
+  <airline>
+    <callsign>BRICKYARD</callsign>
+    <country>US</country>
+    <iata-id>RW</iata-id>
+    <icao-id>RPA</icao-id>
+    <id>4417</id>
+    <name>Republic Airlines</name>
+  </airline>
+  <airline>
+    <callsign>CITRUS</callsign>
+    <country>US</country>
+    <iata-id>FL</iata-id>
+    <icao-id>TRS</icao-id>
+    <id>4505</id>
+    <name>AirTran Airways</name>
+  </airline>
+  <airline>
+    <callsign>REDWOOD</callsign>
+    <country>US</country>
+    <iata-id>VX</iata-id>
+    <icao-id>VRD</icao-id>
+    <id>4541</id>
+    <name>Virgin America</name>
+  </airline>
+  <airline>
+    <callsign>CAPPY</callsign>
+    <country>US</country>
+    <iata-id>PT</iata-id>
+    <icao-id>CCI</icao-id>
+    <id>4634</id>
+    <name>Capital Cargo International Airlines</name>
+  </airline>
+  <airline>
+    <callsign>FRONTIER FLIGHT</callsign>
+    <country>US</country>
+    <iata-id>F9</iata-id>
+    <icao-id>FFT</icao-id>
+    <id>4649</id>
+    <name>Frontier Airlines</name>
+  </airline>
+</airlines>

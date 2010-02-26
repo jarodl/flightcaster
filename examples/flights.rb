@@ -1,9 +1,9 @@
 require File.join(File.dirname(__FILE__), '..', 'lib', 'flightcaster')
 
-flightcaster = FlightCaster.new('MukODwXcOeqMC6c0p6iz')
+flightcaster = FlightCaster.new('secret')
 
 flights = flightcaster.flights
 
-flights.flight.each do |f|
-  puts f.destination
+flights.each do |f|
+  puts f.status_code
 end

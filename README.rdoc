@@ -1,6 +1,13 @@
 = flightcaster
 
-Description goes here.
+The flightcaster ruby gem. Get started by going to http://docs.flightcaster.com/
+and getting an API key.
+
+== examples
+
+See the examples directory.
+
+== docs
 
 == Note on Patches/Pull Requests
  

@@ -5,8 +5,9 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "flightcaster"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Simple interaction with the flightcaster API}
+    gem.description = %Q{Simple interaction with the flightcaster API. Look up
+    flight predictions and information.}
     gem.email = "jarod.luebbert@gmail.com"
     gem.homepage = "http://github.com/jarodluebbert/flightcaster"
     gem.authors = ["Jarod Luebbert"]

@@ -45,6 +45,13 @@ class TestFlightCaster < Test::Unit::TestCase
       airlines = @flightcaster.airlines(:page => 3)
       airlines.current_page.should == '3'
     end
+
+    should "get airlines with 50 on each page" do
+      FakeWeb.register_uri(:get, API_URI + "/airlines.xml?api_key=#{@api_key}&per_page=50",
+                           :body => File.read(DIR + '/fixtures/airlines_per_page.xml'))
+      airlines = @flightcaster.airlines(:per_page => 50)
+      airlines.airline.size.should == 50
+    end
   end
 
   context "Fetching airline" do

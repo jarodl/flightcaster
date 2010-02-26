@@ -13,20 +13,19 @@ require 'flightcaster'
 class Test::Unit::TestCase
 end
 
-class FakeRequest
-  def code; end
-
-  def message; end
+def flightcaster_url(path)
+  'http://api.flightcaster.com' + path
 end
 
-class NotFoundRequest < FakeRequest
-  def code
-    404
-  end
+def fixture_file(filename)
+  return '' if filename == ''
+  file_path = File.expand_path(File.dirname(__FILE__) + '/fixtures/' + filename)
+  File.read(file_path)
 end
 
-class OldAPIRequest < FakeRequest
-  def code
-    422
-  end
+def stub_get(path, filename, status=nil)
+  options = {:body => fixture_file(filename)}
+  options.merge!({:status => status}) unless status.nil?
+
+  FakeWeb.register_uri(:get, flightcaster_url(path), options)
 end

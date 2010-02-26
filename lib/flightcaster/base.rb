@@ -7,44 +7,72 @@ module FlightCaster
       FlightCaster::Request.set_api_key(@api_key)
     end
 
+    # Params
+    #   :per_page => The number of results per page. Defaults to 30.
+    #   :page => The page of results displayed.
     def airlines(params={})
       perform_get('/airlines.xml', params)
     end
 
+    # id
+    #   The FlightCaster id
+    #   The 2 character IATA id
+    #   The 3 chracter ICAO id of the airline
     def airline(id)
       perform_get("/airlines/#{id}.xml")
     end
 
+    # Params
+    #   :per_page => The number of results per page. Defaults to 30.
+    #   :page => The page of results displayed.
     def airports(params={})
       perform_get('/airports.xml', params)
     end
 
+    # id
+    #   The FlightCaster id
+    #   The 3 character IATA id
+    #   The 4 chracter ICAO id of the airport
     def airport(id)
       perform_get("/airports/#{id}.xml")
     end
 
+    # id
+    #   The FlightCaster id
+    #   The 3 character IATA id
+    #   The 4 chracter ICAO id of the airport
+    # Get all arrivals at an airport.
     def airport_arrivals(id, params={})
       perform_get("/airports/#{id}/arrivals.xml", params)
     end
 
+    # id
+    #   The FlightCaster id
+    #   The 3 character IATA id
+    #   The 4 chracter ICAO id of the airport
+    # Get all departures leaving an airport.
     def airport_departures(id, params={})
       perform_get("/airports/#{id}/departures.xml", params)
     end
 
+    # id
+    #   The id given to the flight by FlightCaster
     def flight(id)
       perform_get("/flights/#{id}.xml")
     end
 
-    # TODO: rename this method to something more obvious
+    # Get all flights for a sepcific airline on a given date.
     def flights_by_airline_on(airline_id, flight_number, date, params={})
       t = convert_date(date)
       perform_get("/airlines/#{airline_id}/flights/#{flight_number}/#{t}.xml", params)
     end
 
+    # Get all flights from one airport to another.
     def flight_path(from, to, params={})
       perform_get("/airports/#{from}/departures/#{to}.xml", params)
     end
 
+    # Get all flights from one airport to another on a given date.
     def flight_path_on(from, to, date, params={})
       t = convert_date(date)
       perform_get("/airports/#{from}/departures/#{to}/#{t}.xml", params)

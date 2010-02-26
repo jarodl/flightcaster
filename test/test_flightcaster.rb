@@ -35,7 +35,7 @@ class TestFlightCaster < Test::Unit::TestCase
     should "get airlines with 50 on each page" do
       stub_get('/airlines.xml', 'airlines_per_page.xml', '&per_page=50')
       airlines = @flightcaster.airlines(:per_page => 50)
-      airlines.airline.size.should == 50
+      airlines.size.should == 50
     end
 
   end
@@ -62,7 +62,7 @@ class TestFlightCaster < Test::Unit::TestCase
       airports.current_page.should == '1'
       airports.total_entries.should == '2026'
       airports.total_pages.should == '68'
-      airports.airport[0].city.should == 'New York'
+      airports[0].city.should == 'New York'
     end
   end
 
@@ -80,8 +80,8 @@ class TestFlightCaster < Test::Unit::TestCase
     should "get all flights" do
       stub_get('/flights.xml', 'flights.xml')
       flights = @flightcaster.flights
-      flights.flight[0].id.should == 2858102
-      flights.flight[0].status == 'Scheduled'
+      flights[0].id.should == 2858102
+      flights[0].status == 'Scheduled'
     end
 
     should "get flights by airline" do
@@ -128,8 +128,8 @@ class TestFlightCaster < Test::Unit::TestCase
     should "find a flight from one airport to another on a certain day" do
       stub_get('/airports/PDX/departures/DFW/20090911.xml', 'flight_path_date.xml')
       flights = @flightcaster.flight_path_on('PDX', 'DFW', '20090911')
-      flights.flight[0].id.should == 2877686
-      flights.flight.size.should == 22
+      flights[0].id.should == 2877686
+      flights.size.should == 22
     end
   end
 
@@ -180,7 +180,7 @@ class TestFlightCaster < Test::Unit::TestCase
       stub_get('/delays.xml', 'general_delays.xml')
       delays = @flightcaster.delays
       delays.total_entries.should == '2'
-      delays.delay[0].id.should == '394071'
+      delays[0].id.should == '394071'
     end
 
     should "get one general delay" do
@@ -193,7 +193,7 @@ class TestFlightCaster < Test::Unit::TestCase
       stub_get('/ground_delays.xml', 'ground_delays.xml')
       ground_delays = @flightcaster.ground_delays
       ground_delays.total_entries.should == '3'
-      ground_delays.ground_delay[0].id.should == '373404'
+      ground_delays[0].id.should == '373404'
     end
 
     should "get one ground delay" do
@@ -207,7 +207,7 @@ class TestFlightCaster < Test::Unit::TestCase
       stub_get('/ground_stops.xml', 'ground_stops.xml')
       ground_stops = @flightcaster.ground_stops
       ground_stops.total_entries.should == '2'
-      ground_stops.ground_stop[0].id.should == '125918'
+      ground_stops[0].id.should == '125918'
     end
 
     should "get one ground stop" do

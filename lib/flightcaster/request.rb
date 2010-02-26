@@ -22,10 +22,7 @@ module FlightCaster
       begin
         raise_errors(response)
         data = parse(response)
-        h = Hashie::Mash.new(data)
-        # since the hash looks like { :airlines => { stuff we want } },
-        # we just grab the value from the first key
-        h[h.keys[0]]
+        FlightCaster::Result.new(data)
       rescue
       end
     end
@@ -50,6 +47,5 @@ module FlightCaster
       end
       final
     end
-
   end
 end

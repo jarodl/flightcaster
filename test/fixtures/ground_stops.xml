@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ground-stops current-page="1" total-entries="2" total-pages="1">
+  <ground-stop>
+    <id>125918</id>
+    <reason>WEATHER / LOW CEILINGS</reason>
+    <ends-at>2010-02-10T18:30+00:00</ends-at>
+    <airport-id>6802</airport-id>
+  </ground-stop>
+  <ground-stop>
+    <id type="integer">125554</id>
+    <reason>WEATHER / LOW VISIBILITY</reason>
+    <ends-at type="datetime">2010-02-03T15:45:00Z</ends-at>
+    <airport-id type="integer">5871</airport-id>
+  </ground-stop>
+</ground-stops>
+

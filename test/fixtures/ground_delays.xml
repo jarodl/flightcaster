@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ground-delays current-page="1" total-entries="3" total-pages="1">
+  <ground-delay>
+    <id>373404</id>
+    <reason>VOLUME</reason>
+    <average>2</average>
+    <maximum>0</maximum>
+    <airport-id>6259</airport-id>
+  </ground-delay>
+  <ground-delay>
+    <id>373405</id>
+    <reason>WX / SNOW-ICE</reason>
+    <average>39</average>
+    <maximum>0</maximum>
+    <airport-id>6401</airport-id>
+  </ground-delay>
+  <ground-delay>
+    <id>373406</id>
+    <reason>WX/ SNOW-ICE</reason>
+    <average>82</average>
+    <maximum>0</maximum>
+    <airport-id>6658</airport-id>
+  </ground-delay>
+</ground-delays>
+

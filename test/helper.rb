@@ -13,8 +13,8 @@ require 'flightcaster'
 class Test::Unit::TestCase
 end
 
-def flightcaster_url(path)
-  'http://api.flightcaster.com' + path
+def flightcaster_url(path, params)
+  "http://api.flightcaster.com#{path}?api_key=foo#{params}"
 end
 
 def fixture_file(filename)
@@ -23,9 +23,9 @@ def fixture_file(filename)
   File.read(file_path)
 end
 
-def stub_get(path, filename, status=nil)
+def stub_get(path, filename, params='', status=nil)
   options = {:body => fixture_file(filename)}
   options.merge!({:status => status}) unless status.nil?
 
-  FakeWeb.register_uri(:get, flightcaster_url(path), options)
+  FakeWeb.register_uri(:get, flightcaster_url(path, params), options)
 end

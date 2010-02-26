@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<delays current-page="1" total-entries="2" total-pages="1">
+  <delay>
+    <id>394071</id>
+    <reason>OTHER:Aircraft Emergency</reason>
+    <trend>increasing</trend>
+    <minimum>16</minimum>
+    <maximum>16</maximum>
+    <affected-traffic>departing</affected-traffic>
+    <airport-id>6383</airport-id>
+  </delay>
+  <delay>
+    <id>394072</id>
+    <reason>TM Initiatives:Metering: INDIVIDUAL RELEASES</reason>
+    <trend>increasing</trend>
+    <minimum>91</minimum>
+    <maximum>91</maximum>
+    <affected-traffic>departing</affected-traffic>
+    <airport-id>6855</airport-id>
+  </delay>
+</delays>
+

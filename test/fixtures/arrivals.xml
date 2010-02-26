@@ -1,0 +1,1221 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.39
+Date: Fri, 26 Feb 2010 06:19:58 GMT
+Content-T
+
+
+ype: application/xml; charset=utf-8
+Connection: keep-alive
+X-FlightCaster-API-Version-Deprecated: 0.1.0
+X-Runtime: 262
+ETag: "497aa200515df1ac2e8c89750be49fe5"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 50886
+X-Varnish: 1038981792
+Age: 0
+Via: 1.1 varnish
+
+<?xml version="1.0" encoding="utf-8"?>
+<flights current-page="1" total-entries="15" total-pages="1">
+  <flight>
+    <actual-air-time nil="true" type="integer"/>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time nil="true" type="datetime"/>
+    <actual-runway-departure-time nil="true" type="datetime"/>
+    <airline-icao-id>RAX</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-26T11:57:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-26 05:59:53 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-26T08:03:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-26T11:57:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-26T08:03:00Z</estimated-runway-departure-time>
+    <flightstats-id>185007542</flightstats-id>
+    <id type="integer">2876684</id>
+    <local-departure-time type="datetime">2010-02-26 02:03:00 UTC</local-departure-time>
+    <number type="integer">499</number>
+    <origin-icao-id>KMOT</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">234</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-26T11:57:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-26T08:03:00Z</scheduled-runway-departure-time>
+    <status>Scheduled</status>
+    <status-code>S</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-26 05:59:53 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.005966128</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.86425453</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.016551193</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.06607647</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.029638182</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.0093020275</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.008211445</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time nil="true" type="integer"/>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time nil="true" type="datetime"/>
+    <actual-runway-departure-time nil="true" type="datetime"/>
+    <airline-icao-id>LBQ</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-26T06:17:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-25 12:50:13 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-26T05:54:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-26T06:08:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-26T05:54:00Z</estimated-runway-departure-time>
+    <flightstats-id>185000173</flightstats-id>
+    <id type="integer">2872994</id>
+    <local-departure-time type="datetime">2010-02-26 00:54:00 UTC</local-departure-time>
+    <number type="integer">410</number>
+    <origin-icao-id>KLAN</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">23</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-26T06:17:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-26T05:54:00Z</scheduled-runway-departure-time>
+    <status>Active</status>
+    <status-code>A</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-26 06:18:49 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.005966128</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.86425453</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.016551193</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.06607647</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.029638182</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.0093020275</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.008211445</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time nil="true" type="integer"/>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time nil="true" type="datetime"/>
+    <actual-runway-departure-time type="datetime">2010-02-26T05:39:43Z</actual-runway-departure-time>
+    <airline-icao-id>RAX</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-26T08:44:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-26 03:07:43 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-26T05:10:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-26T09:13:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-26T05:39:00Z</estimated-runway-departure-time>
+    <flightstats-id>185006751</flightstats-id>
+    <id type="integer">2875708</id>
+    <local-departure-time type="datetime">2010-02-25 23:10:00 UTC</local-departure-time>
+    <number type="integer">610</number>
+    <origin-icao-id>KGWR</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">214</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-26T08:44:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-26T05:10:00Z</scheduled-runway-departure-time>
+    <status>Active</status>
+    <status-code>A</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-26 05:45:03 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.050243113</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.34035656</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.07779579</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.19773096</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.14910859</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.10372771</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.081037275</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">66</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-26T05:17:38Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-26T04:11:06Z</actual-runway-departure-time>
+    <airline-icao-id>RAX</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-26T05:05:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-26 01:42:52 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-26T03:45:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-26T05:24:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-26T04:11:00Z</estimated-runway-departure-time>
+    <flightstats-id>185006391</flightstats-id>
+    <id type="integer">2875547</id>
+    <local-departure-time type="datetime">2010-02-25 22:45:00 UTC</local-departure-time>
+    <number type="integer">1073</number>
+    <origin-icao-id>KBTV</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">80</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-26T05:05:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-26T03:45:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-26 05:25:41 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.050243113</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.34035656</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.07779579</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.19773096</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.14910859</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.10372771</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.081037275</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time nil="true" type="integer"/>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time nil="true" type="datetime"/>
+    <actual-runway-departure-time nil="true" type="datetime"/>
+    <airline-icao-id>EJA</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-26T04:45:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-25 22:05:16 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-26T03:24:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-26T04:45:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-26T03:24:00Z</estimated-runway-departure-time>
+    <flightstats-id>185004726</flightstats-id>
+    <id type="integer">2874591</id>
+    <local-departure-time type="datetime">2010-02-25 21:24:00 UTC</local-departure-time>
+    <number type="integer">389</number>
+    <origin-icao-id>KMSP</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">81</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-26T04:45:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-26T03:24:00Z</scheduled-runway-departure-time>
+    <status>Scheduled</status>
+    <status-code>S</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-25 22:05:16 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.005966128</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.86425453</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.016551193</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.06607647</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.029638182</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.0093020275</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.008211445</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">12</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-25T22:39:00Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-25T22:26:38Z</actual-runway-departure-time>
+    <airline-icao-id>RAX</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-25T23:02:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-25 22:20:50 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-25T22:35:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-25T22:32:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-25T22:24:00Z</estimated-runway-departure-time>
+    <flightstats-id>185004851</flightstats-id>
+    <id type="integer">2874661</id>
+    <local-departure-time type="datetime">2010-02-25 17:35:00 UTC</local-departure-time>
+    <number type="integer">625</number>
+    <origin-icao-id>KMBS</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">27</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-25T23:02:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-25T22:35:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-25 22:47:02 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.005966128</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.86425453</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.016551193</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.06607647</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.029638182</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.0093020275</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.008211445</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">104</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-26T00:26:39Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-25T22:42:38Z</actual-runway-departure-time>
+    <airline-icao-id>RAX</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-25T23:51:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-25 21:35:31 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-25T22:10:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-26T00:14:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-25T22:42:00Z</estimated-runway-departure-time>
+    <flightstats-id>185004524</flightstats-id>
+    <id type="integer">2874493</id>
+    <local-departure-time type="datetime">2010-02-25 16:10:00 UTC</local-departure-time>
+    <number type="integer">1073</number>
+    <origin-icao-id>KPBF</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">101</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-25T23:51:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-25T22:10:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-26 00:34:42 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.06716418</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.09950249</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.1716418</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.14676617</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.24875621</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.15920398</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.10696518</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">51</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-25T21:11:20Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-25T20:19:58Z</actual-runway-departure-time>
+    <airline-icao-id>EJA</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-25T20:54:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-25 17:47:18 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-25T20:18:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-25T21:02:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-25T20:18:00Z</estimated-runway-departure-time>
+    <flightstats-id>185002635</flightstats-id>
+    <id type="integer">2873833</id>
+    <local-departure-time type="datetime">2010-02-25 15:18:00 UTC</local-departure-time>
+    <number type="integer">893</number>
+    <origin-icao-id>KIND</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">36</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-25T20:54:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-25T20:18:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-25 21:19:26 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.009502263</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.75927603</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.028506787</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.10723982</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.053393666</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.028054299</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.014027149</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">38</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-25T16:12:21Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-25T15:33:57Z</actual-runway-departure-time>
+    <airline-icao-id>RAX</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-25T16:22:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-25 15:03:18 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-25T15:45:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-25T16:14:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-25T15:33:00Z</estimated-runway-departure-time>
+    <flightstats-id>185001326</flightstats-id>
+    <id type="integer">2873418</id>
+    <local-departure-time type="datetime">2010-02-25 10:45:00 UTC</local-departure-time>
+    <number type="integer">81</number>
+    <origin-icao-id>KCLE</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">37</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-25T16:22:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-25T15:45:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-25 16:20:25 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.005966128</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.86425453</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.016551193</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.06607647</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.029638182</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.0093020275</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.008211445</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">49</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-25T07:47:38Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-25T06:58:13Z</actual-runway-departure-time>
+    <airline-icao-id>RAX</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-25T08:12:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-25 04:07:49 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-25T07:10:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-25T07:50:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-25T06:58:00Z</estimated-runway-departure-time>
+    <flightstats-id>184921755</flightstats-id>
+    <id type="integer">2848812</id>
+    <local-departure-time type="datetime">2010-02-25 01:10:00 UTC</local-departure-time>
+    <number type="integer">123</number>
+    <origin-icao-id>KMLI</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">62</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-25T08:12:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-25T07:10:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-25 07:55:42 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.005966128</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.86425453</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.016551193</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.06607647</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.029638182</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.0093020275</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.008211445</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">15</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-25T06:23:38Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-25T06:08:18Z</actual-runway-departure-time>
+    <airline-icao-id>LBQ</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-25T06:17:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-24 12:50:12 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-25T05:54:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-25T06:25:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-25T06:07:00Z</estimated-runway-departure-time>
+    <flightstats-id>184914984</flightstats-id>
+    <id type="integer">2845933</id>
+    <local-departure-time type="datetime">2010-02-25 00:54:00 UTC</local-departure-time>
+    <number type="integer">410</number>
+    <origin-icao-id>KLAN</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">23</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-25T06:17:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-25T05:54:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-25 06:31:42 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.009502263</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.75927603</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.028506787</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.10723982</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.053393666</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.028054299</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.014027149</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">66</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-25T05:08:38Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-25T04:02:19Z</actual-runway-departure-time>
+    <airline-icao-id>EJA</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-25T04:42:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-25 03:46:10 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-25T03:36:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-25T05:10:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-25T04:02:00Z</estimated-runway-departure-time>
+    <flightstats-id>184921648</flightstats-id>
+    <id type="integer">2848762</id>
+    <local-departure-time type="datetime">2010-02-24 21:36:00 UTC</local-departure-time>
+    <number type="integer">389</number>
+    <origin-icao-id>KMSP</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">66</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-25T04:42:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-25T03:36:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-25 05:16:40 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.050243113</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.34035656</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.07779579</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.19773096</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.14910859</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.10372771</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.081037275</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">208</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-25T07:03:38Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-25T03:35:03Z</actual-runway-departure-time>
+    <airline-icao-id>RAX</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-25T06:25:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-25 00:37:40 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-25T02:40:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-25T07:04:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-25T03:34:00Z</estimated-runway-departure-time>
+    <flightstats-id>184920689</flightstats-id>
+    <id type="integer">2848233</id>
+    <local-departure-time type="datetime">2010-02-24 20:40:00 UTC</local-departure-time>
+    <number type="integer">610</number>
+    <origin-icao-id>KGWR</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">225</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-25T06:25:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-25T02:40:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-25 07:11:45 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.21632653</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.008163265</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.46938777</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.01632653</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.04489796</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.04489796</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.2</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">14</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-24T19:09:51Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-24T18:55:51Z</actual-runway-departure-time>
+    <airline-icao-id>RAX</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-24T20:18:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-24 18:16:36 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-24T20:05:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-24T19:03:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-24T18:55:00Z</estimated-runway-departure-time>
+    <flightstats-id>184917644</flightstats-id>
+    <id type="integer">2846833</id>
+    <local-departure-time type="datetime">2010-02-24 15:05:00 UTC</local-departure-time>
+    <number type="integer">81</number>
+    <origin-icao-id>KYIP</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">13</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-24T20:18:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-24T20:05:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-24 19:17:54 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.005966128</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.86425453</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.016551193</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.06607647</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.029638182</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.0093020275</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.008211445</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <actual-air-time type="integer">81</actual-air-time>
+    <actual-aircraft-type nil="true"/>
+    <actual-block-time nil="true" type="integer"/>
+    <actual-gate-arrival-time nil="true" type="datetime"/>
+    <actual-gate-departure-time nil="true" type="datetime"/>
+    <actual-runway-arrival-time type="datetime">2010-02-24T16:47:31Z</actual-runway-arrival-time>
+    <actual-runway-departure-time type="datetime">2010-02-24T15:26:25Z</actual-runway-departure-time>
+    <airline-icao-id>EJA</airline-icao-id>
+    <arrival-gate nil="true"/>
+    <arrival-terminal nil="true"/>
+    <arrival-time type="datetime">2010-02-24T16:39:00Z</arrival-time>
+    <baggage-claim nil="true"/>
+    <codeshares/>
+    <created-at type="datetime">2010-02-24 12:03:08 UTC</created-at>
+    <departure-gate nil="true"/>
+    <departure-terminal nil="true"/>
+    <departure-time type="datetime">2010-02-24T15:09:00Z</departure-time>
+    <destination-icao-id>KPTK</destination-icao-id>
+    <diverted-icao-id nil="true"/>
+    <estimated-gate-arrival-time nil="true" type="datetime"/>
+    <estimated-gate-departure-time nil="true" type="datetime"/>
+    <estimated-runway-arrival-time type="datetime">2010-02-24T16:50:00Z</estimated-runway-arrival-time>
+    <estimated-runway-departure-time type="datetime">2010-02-24T15:26:00Z</estimated-runway-departure-time>
+    <flightstats-id>184914542</flightstats-id>
+    <id type="integer">2845767</id>
+    <local-departure-time type="datetime">2010-02-24 10:09:00 UTC</local-departure-time>
+    <number type="integer">394</number>
+    <origin-icao-id>KTEB</origin-icao-id>
+    <published-arrival-time nil="true" type="datetime"/>
+    <published-departure-time nil="true" type="datetime"/>
+    <scheduled-air-time type="integer">90</scheduled-air-time>
+    <scheduled-aircraft-type nil="true"/>
+    <scheduled-block-time nil="true" type="integer"/>
+    <scheduled-gate-arrival-time nil="true" type="datetime"/>
+    <scheduled-gate-departure-time nil="true" type="datetime"/>
+    <scheduled-runway-arrival-time type="datetime">2010-02-24T16:39:00Z</scheduled-runway-arrival-time>
+    <scheduled-runway-departure-time type="datetime">2010-02-24T15:09:00Z</scheduled-runway-departure-time>
+    <status>Landed</status>
+    <status-code>L</status-code>
+    <tail-number nil="true"/>
+    <updated-at type="datetime">2010-02-24 16:55:34 UTC</updated-at>
+    <predictions>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.009502263</chance>
+        <minutes>50</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.75927603</chance>
+        <minutes>0</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.028506787</chance>
+        <minutes>60</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.10723982</chance>
+        <minutes>10</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.053393666</chance>
+        <minutes>20</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.028054299</chance>
+        <minutes>30</minutes>
+      </prediction>
+      <prediction>
+        <state>delayed</state>
+        <chance>0.014027149</chance>
+        <minutes>40</minutes>
+      </prediction>
+    </predictions>
+  </flight>
+</flights>
+

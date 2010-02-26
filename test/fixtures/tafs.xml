@@ -1,0 +1,288 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.39
+Date: Fri, 26 Feb 2010 08:28:09 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+X-FlightCaster-API-Version-Deprecated: 0.1.0
+X-Runtime:
+
+
+ 58
+ETag: "cb64cb81133a9a9a8088bf70f7d2eb83"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 8679
+X-Varnish: 681389841
+Age: 0
+Via: 1.1 varnish
+
+<?xml version="1.0" encoding="utf-8"?>
+<tafs current-page="1" total-entries="22773" total-pages="760">
+  <taf>
+    <icao-id>VIDP</icao-id>
+    <id>1141773</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF VIDP 240900Z 2412/2518 26006KT 3500 HZ SCT030 
+      BECMG 2416/2418 VRB02KT 2500 HZ 
+      BECMG 2423/2501 00000KT 1000 BR 
+      BECMG 2505/2507 25006KT 3500 HZ 
+      BECMG 2515/2517 VRB02KT 2500 HZ 
+      TEMPO 2412/2500 FEW025CB</report>
+  </taf>
+  <taf>
+    <icao-id>VILK</icao-id>
+    <id>1141774</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF VILK 240900Z 2412/2518 VRB02KT 3000 HZ/FU FEW025 SCT100 
+      TEMPO 2412/2416 FEW030CB
+      BECMG 2501/2503 00000KT 1000 MIFG/BR NSC 
+      BECMG 2507/2509 29008KT 5000 HZ FEW025</report>
+  </taf>
+  <taf>
+    <icao-id>VIJP</icao-id>
+    <id>1141775</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF VIJP 240900Z 2412/2518 29005KT 4000 HZ FEW030 
+      BECMG 2422/2424 VRB02KT 3000 HZ 
+      BECMG 2501/2503 29005KT 4000 HZ NSC</report>
+  </taf>
+  <taf>
+    <icao-id>VIAR</icao-id>
+    <id>1141776</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF VIAR 240900Z 2412/2518 12006KT 5000 HZ SCT030 
+      BECMG 2423/2501 VRB02KT 3000 HZ 
+      BECMG 2405/2407 12006KT 5000 HZ 
+      BECMG 2515/2517 VRB02KT 3000 HZ 
+      TEMPO 2412/2500 1000 TSRA FW025CB</report>
+  </taf>
+  <taf>
+    <icao-id>VIBN</icao-id>
+    <id>1141777</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF VIBN 240900Z 2412/2518 VRB02KT 3000 HZ/FU FEW025 SCT100 
+      TEMPO 2412/2416 FEW030CB
+      BECMG 2501/2503 00000KT 1000 MIFG/BR NSC 
+      BECMG 2507/2509 29008KT 5000 HZ FEW025</report>
+  </taf>
+  <taf>
+    <icao-id>SBGR</icao-id>
+    <id>1141778</id>
+    <issued-at>2010-02-24T09:33+00:00</issued-at>
+    <report>TAF SBGR 240933Z 2412/2518 33010KT CAVOK TX32/2418Z TN19/2509Z 
+      BECMG 2413/2415 SCT040 
+      TEMPO 2417/2423 17015G25KT 4000 TSRA BKN012 FEW045CB 
+      BECMG 2423/2501 16010KT 8000 BKN010 PROB30 
+      TEMPO 2502/2514 3000 RA BR BKN006 
+      RMK PGD</report>
+  </taf>
+  <taf>
+    <icao-id>SBSP</icao-id>
+    <id>1141779</id>
+    <issued-at>2010-02-24T09:33+00:00</issued-at>
+    <report>TAF SBSP 240933Z 2412/2512 33010KT CAVOK TX32/2417Z TN21/2509Z 
+      BECMG 2413/2415 SCT040 
+      TEMPO 2417/2423 17015G25KT 4500 TSRA BKN010 FEW045CB 
+      BECMG 2500/2502 16010KT 7000 BKN010 PROB30 
+      TEMPO 2502/2512 4000 RA BR BKN006 
+      RMK PGD</report>
+  </taf>
+  <taf>
+    <icao-id>SBRP</icao-id>
+    <id>1141780</id>
+    <issued-at>2010-02-24T09:33+00:00</issued-at>
+    <report>TAF SBRP 240933Z 2412/2512 11005KT CAVOK TX36/2417Z TN22/2508Z 
+      BECMG 2413/2415 34010KT SCT035 PROB30 
+      TEMPO 2418/2423 27015G25KT 4000 TSRA BKN040 FEW045CB 
+      BECMG 2500/2502 09005KT 
+      RMK PGD</report>
+  </taf>
+  <taf>
+    <icao-id>SBKP</icao-id>
+    <id>1141781</id>
+    <issued-at>2010-02-24T09:33+00:00</issued-at>
+    <report>TAF SBKP 240933Z 2412/2512 02005KT CAVOK TX33/2418Z TN21/2508Z 
+      BECMG 2413/2415 33010KT SCT040 
+      TEMPO 2418/2424 27010KT TSRA SCT040 FEW050CB 
+      BECMG 2500/2502 15015KT PROB30 
+      TEMPO 2502/2512 6000 RA BKN015 
+      RMK PGD</report>
+  </taf>
+  <taf>
+    <icao-id>SBCF</icao-id>
+    <id>1141782</id>
+    <issued-at>2010-02-24T09:33+00:00</issued-at>
+    <report>TAF SBCF 240933Z 2412/2512 14005KT 9999 SCT035 TX30/2418Z TN19/2509Z PROB30 
+      TEMPO 2422/2424 TS SCT040 FEW045CB 
+      BECMG 2423/2424 13010KT CAVOK 
+      RMK PGD</report>
+  </taf>
+  <taf>
+    <icao-id>CZUM</icao-id>
+    <id>1141783</id>
+    <issued-at>2010-02-24T09:33+00:00</issued-at>
+    <report>TAF 
+      AMD CZUM 240933Z 2409/2420 07003KT P6SM SKC 
+      TEMPO 2409/2411 1SM BR SKC 
+     FM241100 09003KT 1SM BR OVC004 
+      TEMPO 2411/2413 21/2SM BR OVC008 
+     FM241300 09003KT 2SM BR OVC008 
+      TEMPO 2413/2415 6SM BR OVC010 
+     FM241500 09005KT P6SM OVC012 
+      TEMPO 2415/2420 OVC009 
+      RMK FCST BASED ON AUTO OBS. NXT FCST BY 241400Z</report>
+  </taf>
+  <taf>
+    <icao-id>KPAH</icao-id>
+    <id>1141784</id>
+    <issued-at>2010-02-24T09:33+00:00</issued-at>
+    <report>TAF 
+      AMD KPAH 240933Z 2410/2506 31007KT P6SM SCT025 OVC045 
+      TEMPO 2410/2414 32012G22KT P6SM -SN OVC025 
+     FM241500 32012G19KT P6SM SCT030 
+     FM250100 34007KT P6SM SKC</report>
+  </taf>
+  <taf>
+    <icao-id>PLCH</icao-id>
+    <id>1141785</id>
+    <issued-at>2010-02-24T09:33+00:00</issued-at>
+    <report>TAF PLCH 240933Z 2412/2512 08008KT 9999 -SHRA SCT015 SCT040 
+      BECMG 2421/2423 08015KT 
+      BECMG 2504/2506 08008KT </report>
+  </taf>
+  <taf>
+    <icao-id>NIUE</icao-id>
+    <id>1141786</id>
+    <issued-at>2010-02-24T09:33+00:00</issued-at>
+    <report>TAF NIUE 240933Z 2412/2512 11010KT 9999 SCT018 
+      BECMG 2421/2423 13015KT </report>
+  </taf>
+  <taf>
+    <icao-id>NFTV</icao-id>
+    <id>1141787</id>
+    <issued-at>2010-02-24T09:34+00:00</issued-at>
+    <report>TAF NFTV 240934Z 2412/2512 11008KT 9999 SCT015 
+      BECMG 2421/2423 11015KT 
+      BECMG 2504/2506 11008KT </report>
+  </taf>
+  <taf>
+    <icao-id>TNCC</icao-id>
+    <id>1141788</id>
+    <issued-at>2010-02-24T09:30+00:00</issued-at>
+    <report>TAF TNCC 240930Z 2412/2512 09005KT 9999 FEW018= TAF TNCA 240930Z 2412/2512 08008KT 9999 FEW018</report>
+  </taf>
+  <taf>
+    <icao-id>TNCB</icao-id>
+    <id>1141789</id>
+    <issued-at>2010-02-24T09:30+00:00</issued-at>
+    <report>TAF TNCB 240930Z 2412/2512 09007KT 9999 FEW018</report>
+  </taf>
+  <taf>
+    <icao-id>LFLX</icao-id>
+    <id>1141790</id>
+    <issued-at>2010-02-24T09:34+00:00</issued-at>
+    <report>TAF 
+      AMD LFLX 240934Z 2409/2512 23014KT 9999 BKN030 
+      TEMPO 2409/2412 6000 SHRA BKN014 
+      BECMG 2412/2415 22021KT RA BKN012 PROB40 
+      TEMPO 2412/2418 22021G40KT 4000 TSRA SCT005CB BKN015 
+      BECMG 2418/2421 NSW BKN030 
+      BECMG 2500/2503 18008KT 
+      BECMG 2506/2509 20014KT</report>
+  </taf>
+  <taf>
+    <icao-id>OLBA</icao-id>
+    <id>1141791</id>
+    <issued-at>2010-02-24T10:00+00:00</issued-at>
+    <report>TAF OLBA 241000Z 2412/2518 27012KT 8000 SCT026 SCT200 
+      BECMG 2418/2421 VRB05KT SCT026 SCT070 
+      TEMPO 2418/2512 RA 
+      BECMG 2515/2518 36010KT 330V040 FEW026 SCT200</report>
+  </taf>
+  <taf>
+    <icao-id>TNCA</icao-id>
+    <id>1141792</id>
+    <issued-at>2010-02-24T09:30+00:00</issued-at>
+    <report>TAF TAF TNCA 240930Z 2412/2512 08008KT 9999 FEW018</report>
+  </taf>
+  <taf>
+    <icao-id>SBCG</icao-id>
+    <id>1141793</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBCG 240900Z 2412/2512 32008KT 9999 SCT030 TX32/2418Z TN22/2509Z PROB40 
+      TEMPO 2418/2423 5000 TSRA BKN020 FEW035CB 
+      RMK PDJ</report>
+  </taf>
+  <taf>
+    <icao-id>SBCR</icao-id>
+    <id>1141794</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBCR 240900Z 2412/2512 02008KT 9999 SCT030 TX31/2418Z TN25/2509Z PROB40 
+      TEMPO 2418/2423 5000 TSRA BKN020 FEW035CB 
+      RMK PDJ</report>
+  </taf>
+  <taf>
+    <icao-id>SBCT</icao-id>
+    <id>1141795</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBCT 240900Z 2412/2512 32008KT 9999 BKN020 TX28/2418Z TN18/2509Z PROB40 
+      TEMPO 2412/2422 4000 SHRA BKN010 BKN020 
+      BECMG 2422/2424 12006KT BKN008 
+      RMK PDJ</report>
+  </taf>
+  <taf>
+    <icao-id>SBPA</icao-id>
+    <id>1141796</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBPA 240900Z 2412/2512 16008KT 9999 BKN030 TX30/2418Z TN21/2509Z PROB40 2412/2414 6000 RA BKN010 BKN030 
+      BECMG 2420/2422 SCT030 PROB40 2508/2512 3000 BR SCT004 
+      RMK PDJ</report>
+  </taf>
+  <taf>
+    <icao-id>SBFI</icao-id>
+    <id>1141797</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBFI 240900Z 2412/2512 21007KT 9999 SCT020 TX28/2418Z TN20/2509Z PROB40 
+      TEMPO 2412/2423 4000 TSRA BKN012 FEW035CB 
+      RMK PDJ</report>
+  </taf>
+  <taf>
+    <icao-id>SBBG</icao-id>
+    <id>1141798</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBBG 240900Z 2412/2512 18007KT 9999 SCT030 TX26/2418Z TN17/2509Z 
+      BECMG 2418/2420 CAVOK 
+      RMK PDJ</report>
+  </taf>
+  <taf>
+    <icao-id>SBPK</icao-id>
+    <id>1141799</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBPK 240900Z 2412/2512 15010KT 9999 SCT030 TX28/2418Z TN19/2509Z PROB30 2508/2511 2000 BR BKN006 
+      RMK PDJ</report>
+  </taf>
+  <taf>
+    <icao-id>SBUG</icao-id>
+    <id>1141800</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBUG 240900Z 2412/2512 18008KT CAVOK TX26/2418Z TN17/2509Z PROB30 
+      TEMPO 2416/2422 4000 TSRA BKN020 FEW035CB 
+      RMK PDJ</report>
+  </taf>
+  <taf>
+    <icao-id>SBNF</icao-id>
+    <id>1141801</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBNF 240900Z 2412/2512 16007KT 9999 SCT030 TX28/2418Z TN22/2509Z PROB40 
+      TEMPO 2416/2423 4000 TSRA SCT010 BKN020 FEW035CB 
+      RMK PDJ</report>
+  </taf>
+  <taf>
+    <icao-id>SBPP</icao-id>
+    <id>1141802</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TAF SBPP 240900Z 2412/2512 35007KT 9999 SCT025 TX31/2418Z TN22/2509Z PROB40 
+      TEMPO 2412/2423 5000 TSRA BKN020 FEW035CB 
+      RMK PDJ</report>
+  </taf>
+</tafs>
+

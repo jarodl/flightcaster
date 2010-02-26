@@ -1,0 +1,201 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.39
+Date: Fri, 26 Feb 2010 08:23:29 GMT
+Content-T
+
+
+ype: application/xml; charset=utf-8
+Connection: keep-alive
+X-FlightCaster-API-Version-Deprecated: 0.1.0
+X-Runtime: 239
+ETag: "61195a2390b84fcc27023b071113dba5"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 6037
+X-Varnish: 681376397
+Age: 0
+Via: 1.1 varnish
+
+<?xml version="1.0" encoding="utf-8"?>
+<metars current-page="1" total-entries="350774" total-pages="11693">
+  <metar>
+    <icao-id>PAWS</icao-id>
+    <id>41679437</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>PAWS 240856Z AUTO 00000KT 10SM BKN065 OVC090 M01/M04 A2948 RMK AO1 57010 PNO</report>
+  </metar>
+  <metar>
+    <icao-id>PAZK</icao-id>
+    <id>41679438</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>PAZK 240856Z AUTO 00000KT 9SM BKN043 OVC050 M08/M11 A2941 RMK AO1 57010 PNO</report>
+  </metar>
+  <metar>
+    <icao-id>EGTC</icao-id>
+    <id>41679439</id>
+    <issued-at>2010-02-24T08:50+00:00</issued-at>
+    <report>EGTC 240850Z 17009KT 4000 VCFG FEW003 BKN012 05/05 Q0990</report>
+  </metar>
+  <metar>
+    <icao-id>EHAM</icao-id>
+    <id>41679440</id>
+    <issued-at>2010-02-24T08:55+00:00</issued-at>
+    <report>EHAM 240855Z 17007KT 3500 BR SCT003 SCT017 05/05 Q0995 BECMG 5000</report>
+  </metar>
+  <metar>
+    <icao-id>EHBK</icao-id>
+    <id>41679441</id>
+    <issued-at>2010-02-24T08:55+00:00</issued-at>
+    <report>EHBK 240855Z AUTO 20011KT 9999NDV FEW040 OVC046 08/07 Q0998 NOSIG</report>
+  </metar>
+  <metar>
+    <icao-id>EHGG</icao-id>
+    <id>41679442</id>
+    <issued-at>2010-02-24T08:55+00:00</issued-at>
+    <report>EHGG 240855Z AUTO 11007KT 080V150 2700NDV -RADZ OVC003 00/00 Q0997 REFZRADZ R23/4/0592 01/4/0592 BECMG 1200 BR BKN002</report>
+  </metar>
+  <metar>
+    <icao-id>EHRD</icao-id>
+    <id>41679443</id>
+    <issued-at>2010-02-24T08:55+00:00</issued-at>
+    <report>EHRD 240855Z 18007KT 7000 FEW004 SCT009 BKN015 07/06 Q0995 BECMG 8000</report>
+  </metar>
+  <metar>
+    <icao-id>SBRB</icao-id>
+    <id>41679444</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>SBRB 240900Z 00000KT 5000 BR NSC 24/24 Q1009</report>
+  </metar>
+  <metar>
+    <icao-id>LEMO</icao-id>
+    <id>41679445</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>LEMO 240900Z 22007KT 180V260 9000 FEW014 SCT040 15/14 Q1020 NOSIG</report>
+  </metar>
+  <metar>
+    <icao-id>EKVJ</icao-id>
+    <id>41679446</id>
+    <issued-at>2010-02-24T08:50+00:00</issued-at>
+    <report>EKVJ 240850Z 10012KT 5000 SCT020 BKN100 M06/M06 Q1004</report>
+  </metar>
+  <metar>
+    <icao-id>PGSN</icao-id>
+    <id>41679447</id>
+    <issued-at>2010-02-24T08:54+00:00</issued-at>
+    <report>PGSN 240854Z 25005KT 10SM SCT021 26/22 A2983 RMK AO2 SLP100 T02560222 53012</report>
+  </metar>
+  <metar>
+    <icao-id>PHOG</icao-id>
+    <id>41679448</id>
+    <issued-at>2010-02-24T08:54+00:00</issued-at>
+    <report>PHOG 240854Z 00000KT 10SM BKN055 20/17 A3006 RMK AO2 SLP182 T02000172 58000</report>
+  </metar>
+  <metar>
+    <icao-id>SBMO</icao-id>
+    <id>41679449</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>SBMO 240900Z 02004KT 3500 BR SCT012 SCT020 BKN100 25/25 Q1012</report>
+  </metar>
+  <metar>
+    <icao-id>SAWH</icao-id>
+    <id>41679450</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>SAWH 240900Z 25022G36KT 9999 SCT030 BKN100 09/05 Q1013</report>
+  </metar>
+  <metar>
+    <icao-id>TFFR</icao-id>
+    <id>41679451</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>TFFR 240900Z 17004KT 9999 FEW018 24/22 Q1010 NOSIG</report>
+  </metar>
+  <metar>
+    <icao-id>OPST</icao-id>
+    <id>41679452</id>
+    <issued-at>2010-02-24T09:00+00:00</issued-at>
+    <report>OPST 240900Z 23008KT 6000 FEW200 23/12 Q1011 RH48</report>
+  </metar>
+  <metar>
+    <icao-id>KNKX</icao-id>
+    <id>41679453</id>
+    <issued-at>2010-02-24T08:55+00:00</issued-at>
+    <report>KNKX 240855Z 07003KT 10SM FEW200 07/04 A3021 RMK AO2 SLP227 T00720044 55004</report>
+  </metar>
+  <metar>
+    <icao-id>BGUQ</icao-id>
+    <id>41679454</id>
+    <issued-at>2010-02-24T08:50+00:00</issued-at>
+    <report>BGUQ 240850Z 09011KT 9999 BKN090 M09/M19 Q1026 RMK 7AC </report>
+  </metar>
+  <metar>
+    <icao-id>K79J</icao-id>
+    <id>41679455</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>K79J 240856Z AUTO 36010KT 10SM OVC100 07/01 A2991 RMK AO2 SLP129 T00670006 50004 TSNO $</report>
+  </metar>
+  <metar>
+    <icao-id>OPLA</icao-id>
+    <id>41679456</id>
+    <issued-at>2010-02-24T08:55+00:00</issued-at>
+    <report>OPLA 240855Z 00000KT 4000 HZ FEW100 26/08 Q1011 NOSIG</report>
+  </metar>
+  <metar>
+    <icao-id>KP28</icao-id>
+    <id>41679457</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>KP28 240856Z AUTO 00000KT M07/M09 A3024 RMK AO2 SLP257 T10721089 53009 PWINO FZRANO TSNO </report>
+  </metar>
+  <metar>
+    <icao-id>KD07</icao-id>
+    <id>41679458</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>KD07 240856Z AUTO 16015KT M18/M19 A3001 RMK AO2 SLP222 T11781189 57012 PWINO FZRANO TSNO </report>
+  </metar>
+  <metar>
+    <icao-id>KNQI</icao-id>
+    <id>41679459</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>KNQI 240856Z AUTO 31008KT 10SM CLR 04/M01 A3027 RMK AO2 SLP245 6//// T00391006 58001 PNO </report>
+  </metar>
+  <metar>
+    <icao-id>KSPD</icao-id>
+    <id>41679460</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>KSPD 240856Z AUTO 31003KT M06/M08 A3008 RMK AO2 SLP196 T10611083 56010 PWINO FZRANO TSNO </report>
+  </metar>
+  <metar>
+    <icao-id>K2WX</icao-id>
+    <id>41679461</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>K2WX 240856Z AUTO 16010KT M16/M17 A2987 RMK AO1 SLP175 T11561172 58008 </report>
+  </metar>
+  <metar>
+    <icao-id>K8D3</icao-id>
+    <id>41679462</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>K8D3 240856Z AUTO 33005KT M24/M27 A3024 RMK AO2 SLP297 T12441267 58002 PWINO FZRANO TSNO </report>
+  </metar>
+  <metar>
+    <icao-id>KP53</icao-id>
+    <id>41679463</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>KP53 240856Z AUTO 34006KT M03/M04 A2989 RMK AO2 SLP131 P0002 60012 T10281039 51009 PWINO FZRANO TSNO </report>
+  </metar>
+  <metar>
+    <icao-id>KCDJ</icao-id>
+    <id>41679464</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>KCDJ 240856Z AUTO 32005KT M14/M18 A3019 RMK AO2 SLP247 T11441183 50003 PWINO FZRANO TSNO </report>
+  </metar>
+  <metar>
+    <icao-id>KMHS</icao-id>
+    <id>41679465</id>
+    <issued-at>2010-02-24T08:56+00:00</issued-at>
+    <report>KMHS 240856Z AUTO VRB03KT 5SM -SN BR SCT024 BKN033 OVC060 01/M01 A2997 RMK AO2 SLP181 P0001 60017 T00061006 58001 TSNO </report>
+  </metar>
+  <metar>
+    <icao-id>PHMK</icao-id>
+    <id>41679466</id>
+    <issued-at>2010-02-24T08:54+00:00</issued-at>
+    <report>PHMK 240854Z AUTO 00000KT 10SM CLR 16/14 A3006 RMK AO2 SLP184 T01610139 58004 TSNO</report>
+  </metar>
+</metars>
+

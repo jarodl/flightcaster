@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flights current-page="1" total-entries="6" total-pages="3">
+  <flight>
+    <id>12523403</id>
+    <flightstats-history-id>172978321</flightstats-history-id>
+    <number>30</number>
+    <airline-icao-id>ASA</airline-icao-id>
+    <origin-icao-id>KPDX</origin-icao-id>
+    <destination-icao-id>KBOS</destination-icao-id>
+    <diverted-icao-id/>
+    <published-arrival-time>2009-10-11 19:49:00 UTC</published-arrival-time>
+    <published-departure-time>2009-10-11 14:25:00 UTC</published-departure-time>
+    <created-at>2009-10-08 08:07:24 UTC</created-at>
+    <updated-at>2009-10-08 08:30:23 UTC</updated-at>
+    <predictions status="on-time">
+      <prediction greater-than="0" less-or-equal-than="20" message="On-Time">0.85495341</prediction>
+      <prediction greater-than="20" less-or-equal-than="60" message="Less than 60m late">0.108263855</prediction>
+      <prediction greater-than="60" message="More than 60m late">0.0367827363</prediction>
+    </predictions>
+  </flight>
+  <flight>
+    <id>12446708</id>
+    <flightstats-history-id>172900603</flightstats-history-id>
+    <number>30</number>
+
+
+
+    <airline-icao-id>ASA</airline-icao-id>
+    <origin-icao-id>KPDX</origin-icao-id>
+    <destination-icao-id>KBOS</destination-icao-id>
+    <diverted-icao-id/>
+    <published-arrival-time>2009-10-10 19:49:00 UTC</published-arrival-time>
+    <published-departure-time>2009-10-10 14:25:00 UTC</published-departure-time>
+    <created-at>2009-10-07 08:05:00 UTC</created-at>
+    <updated-at>2009-10-08 06:13:28 UTC</updated-at>
+    <predictions status="on-time">
+      <prediction greater-than="0" less-or-equal-than="20" message="On-Time">0.85495341</prediction>
+      <prediction greater-than="20" less-or-equal-than="60" message="Less than 60m late">0.108263855</prediction>
+      <prediction greater-than="60" message="More than 60m late">0.0367827363</prediction>
+    </predictions>
+  </flight>
+</flights>
+

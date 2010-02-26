@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.39
+Date: Fri, 26 Feb 2010 08:22:43 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+X-FlightCaster-API-Version-Deprecated: 0.1.0
+X-Runtime: 41
+ETag: "a0cf2be6318a13ecb39f7e6328fdecb8"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 261
+X-Varnish: 2090051540
+Age: 0
+Via: 1.1 varnish
+
+<?xml version="1.0" encoding="utf-8"?>
+<metar>
+  <icao-id>KPDX</icao-id>
+  <id>42017199</id>
+  <issued-at>2010-02-26T07:53+00:00</issued-at>
+  <report>KPDX 260753Z 12009KT 10SM -RA BKN050 OVC070 09/07 A2985 RMK AO2 SLP106 P0003 T00890067 401330056</report>
+</metar>

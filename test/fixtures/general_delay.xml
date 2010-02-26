@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<delay>
+  <id>394069</id>
+  <reason>TM Initiatives:Metering: INDIVIDUAL RELEASES</reason>
+  <trend>increasing</trend>
+  <minimum>76</minimum>
+  <maximum>76</maximum>
+  <affected-traffic>departing</affected-traffic>
+  <airport-id>6855</airport-id>
+</delay>
+

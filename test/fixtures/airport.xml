@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.39
+Date: Fri, 26 Feb 2010 05:48:10 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+X-FlightCaster-API-Version-Deprecated: 0.1.0
+X-Runtime: 19
+ETag: "45910c7a50ce4d0fe63f950cecdffc1d"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 396
+X-Varnish: 2089303365
+Age: 0
+Via: 1.1 varnish
+
+<?xml version="1.0" encoding="utf-8"?>
+<airport>
+  <city>Waterford Township</city>
+  <country>US</country>
+  <elevation>299</elevation>
+  <faa-id>PTK</faa-id>
+  <iata-id>PTK</iata-id>
+  <icao-id>KPTK</icao-id>
+  <id>1</id>
+  <latitude>42.665556</latitude>
+  <longitude>-83.419444</longitude>
+  <name>Oakland County International Airport</name>
+  <state>MI</state>
+  <time-zone>America/New_York</time-zone>
+</airport>
+

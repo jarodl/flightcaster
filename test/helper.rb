@@ -1,8 +1,8 @@
-require 'rubygems'
 require 'test/unit'
 require 'shoulda'
 require 'matchy'
 require 'fakeweb'
+begin; require 'turn'; rescue LoadError; end
 
 FakeWeb.allow_net_connect = false
 

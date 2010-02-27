@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'rake'
 
 begin
@@ -12,6 +11,11 @@ begin
     gem.homepage = "http://github.com/jarodluebbert/flightcaster"
     gem.authors = ["Jarod Luebbert"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_development_dependency "shoulda", ">= 2.10.2"
+    gem.add_development_dependency "mhennemeyer-matchy", ">= 0.3.3"
+    gem.add_development_dependency "fakeweb", ">= 1.2.8"
+    gem.add_dependency "httparty", ">= 0.5.2"
+    gem.add_dependency "hashie", ">= 0.1.8"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

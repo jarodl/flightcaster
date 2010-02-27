@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{flightcaster}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jarod Luebbert"]
@@ -24,9 +24,12 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "examples/flights.rb",
+     "flightcaster.gemspec",
      "lib/flightcaster.rb",
      "lib/flightcaster/base.rb",
      "lib/flightcaster/request.rb",
+     "lib/flightcaster/result.rb",
      "test/fixtures/airline.xml",
      "test/fixtures/airline_flight.xml",
      "test/fixtures/airline_flights.xml",
@@ -62,13 +65,14 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/jarodluebbert/flightcaster}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{Simple interaction with the flightcaster API}
   s.test_files = [
     "test/helper.rb",
      "test/test_base.rb",
      "test/test_flightcaster.rb",
-     "test/test_request.rb"
+     "test/test_request.rb",
+     "examples/flights.rb"
   ]
 
   if s.respond_to? :specification_version then
@@ -77,11 +81,26 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_development_dependency(%q<shoulda>, [">= 2.10.2"])
+      s.add_development_dependency(%q<mhennemeyer-matchy>, [">= 0.3.3"])
+      s.add_development_dependency(%q<fakeweb>, [">= 1.2.8"])
+      s.add_runtime_dependency(%q<httparty>, [">= 0.5.2"])
+      s.add_runtime_dependency(%q<hashie>, [">= 0.1.8"])
     else
       s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_dependency(%q<shoulda>, [">= 2.10.2"])
+      s.add_dependency(%q<mhennemeyer-matchy>, [">= 0.3.3"])
+      s.add_dependency(%q<fakeweb>, [">= 1.2.8"])
+      s.add_dependency(%q<httparty>, [">= 0.5.2"])
+      s.add_dependency(%q<hashie>, [">= 0.1.8"])
     end
   else
     s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+    s.add_dependency(%q<shoulda>, [">= 2.10.2"])
+    s.add_dependency(%q<mhennemeyer-matchy>, [">= 0.3.3"])
+    s.add_dependency(%q<fakeweb>, [">= 1.2.8"])
+    s.add_dependency(%q<httparty>, [">= 0.5.2"])
+    s.add_dependency(%q<hashie>, [">= 0.1.8"])
   end
 end
 

@@ -141,6 +141,12 @@ class TestFlightCaster < Test::Unit::TestCase
       flight.status_code.should == 'S'
       flight.flightstats_id.should == '184971694'
     end
+
+    should "get predictions for one flight" do
+      stub_get('/flights/2858102.xml', 'flight.xml')
+      flight = @flightcaster.flight(2858102)
+      flight.predictions[0].state.should == 'delayed'
+    end
   end
 
   context "Fetching METARs" do

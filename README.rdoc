@@ -11,6 +11,11 @@ See the examples directory.
 
 http://rdoc.info/projects/jarodluebbert/flightcaster
 
+== todo
+
+* Load API key from config file
+* Authenticate with user/pass
+
 == Note on Patches/Pull Requests
  
 * Fork the project.

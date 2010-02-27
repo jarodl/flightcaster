@@ -36,6 +36,20 @@ module FlightCaster
       # iterate over all flights `.flights.flight.each` would be needed.
       # To get around this, we need to grab out that array of hashes
       # and store it in a general location so we can overload `.each`
+#      h.each_key do |key|
+#        if h[key].class == Array
+#          results = []
+#          h[key].each do |item|
+#            results << item
+#          end
+#          h.delete(key)
+#          h.merge!({ :results => results })
+#        end
+#      end
+      extract_array!(h)
+    end
+
+    def extract_array!(h)
       h.each_key do |key|
         if h[key].class == Array
           results = []
@@ -44,6 +58,17 @@ module FlightCaster
           end
           h.delete(key)
           h.merge!({ :results => results })
+        elsif h[key].class == Hashie::Mash
+          h[key].each_key do |k|
+            tmp = h[key].send(k)
+            if tmp.class == Array
+              arr = []
+              tmp.each do |item|
+                arr << item
+              end
+              h[key] = arr
+            end
+          end
         end
       end
     end

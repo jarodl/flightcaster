@@ -133,11 +133,7 @@ module FlightCaster
     end
 
     def format(date)
-      if date.class == Time
-        date.strftime("%Y%m%d")
-      else
-        date
-      end
+      (date.is_a?(Time)) ? date.strftime("%Y%m%d") : date
     end
 
   end

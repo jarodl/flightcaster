@@ -13,7 +13,7 @@ Age: 0
 Via: 1.1 varnish
 
 <?xml version="1.0" encoding="utf-8"?>
-<flights>
+<flights current-page="1" total-entries="504" total-pages="17">
   <flight>
     <actual-air-time nil="true" type="integer"/>
     <actual-aircraft-type nil="true"/>

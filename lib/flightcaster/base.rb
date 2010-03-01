@@ -61,33 +61,39 @@ module FlightCaster
       perform_get("/flights/#{id}.xml")
     end
 
-    # Get all flights for a sepcific airline on a given date.
-    def flights_by_airline_on(airline_id, flight_number, date, params={})
-      t = convert_date(date)
-      perform_get("/airlines/#{airline_id}/flights/#{flight_number}/#{t}.xml", params)
-    end
-
-    # Get all flights from one airport to another.
-    def flight_path(from, to, params={})
-      perform_get("/airports/#{from}/departures/#{to}.xml", params)
-    end
-
-    # Get all flights from one airport to another on a given date.
-    def flight_path_on(from, to, date, params={})
-      t = convert_date(date)
-      perform_get("/airports/#{from}/departures/#{to}/#{t}.xml", params)
-    end
-
+    # params
+    #   :per_page => The number of results per page. Defaults to 30.
+    #   :page => The page of results displayed.
     def flights(params={})
       perform_get('/flights.xml', params)
     end
 
-    def flights_by_airline(id, params={})
-      perform_get("/airlines/#{id}/flights.xml", params)
+    # airline_id
+    # flight_number
+    # date
+    #   A Ruby Time object
+    #   or a date in the format 'yearmonthday' (ex: 20100226 = Feb. 26, 2010)
+    # params
+    #   :per_page => The number of results per page. Defaults to 30.
+    #   :page => The page of results displayed.
+    def flights_by_airline(airline_id, flight_number=nil, date=nil, params={})
+      if flight_number && date
+        t = convert_date(date)
+        perform_get("/airlines/#{airline_id}/flights/#{flight_number}/#{t}.xml", params)
+      elsif flight_number
+        perform_get("/airlines/#{airline_id}/flights/#{flight_number}.xml", params)
+      else
+        perform_get("/airlines/#{airline_id}/flights.xml", params)
+      end
     end
 
-    def flight_by_airline(airline_id, flight_number, params={})
-      perform_get("/airlines/#{airline_id}/flights/#{flight_number}.xml", params)
+    def flight_route(origin, destination, date=nil, params={})
+      if date
+        t = convert_date(date)
+        perform_get("/airports/#{origin}/departures/#{destination}/#{t}.xml", params)
+      else
+        perform_get("/airports/#{origin}/departures/#{destination}.xml", params)
+      end
     end
 
     def metars(params={})

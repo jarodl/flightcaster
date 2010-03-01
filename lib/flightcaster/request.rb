@@ -22,7 +22,9 @@ module FlightCaster
       begin
         raise_errors(response)
         data = parse(response)
-        FlightCaster::Result.new(data)
+        h = Hashie::Mash.new(data)
+        h = h[h.keys[0]]
+        FlightCaster::Rash.new(h)
       rescue
       end
     end

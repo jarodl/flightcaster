@@ -107,27 +107,28 @@ class TestFlightCaster < Test::Unit::TestCase
 
     should "get flights by airline and flight number" do
       stub_get('/airlines/VX/flights/28.xml', 'airline_flight.xml')
-      flights = @flightcaster.flight_by_airline('VX', 28)
+      flights = @flightcaster.flights_by_airline('VX', 28)
       flights.total_entries.should == '5'
+      flights.size.should == 5
       flights.total_pages.should == '1'
     end
 
     should "get flights by airline, flight number, and date" do
       stub_get('/airlines/VX/flights/28/20100226.xml', 'flight_date.xml')
-      flights = @flightcaster.flights_by_airline_on('VX', 28, '20100226')
+      flights = @flightcaster.flights_by_airline('VX', 28, '20100226')
       flights.total_entries.should == '1'
     end
 
     should "find a flight from one airport to another" do
       stub_get('/airports/PDX/departures/DFW.xml', 'flight_path.xml')
-      flights = @flightcaster.flight_path('PDX', 'DFW')
+      flights = @flightcaster.flight_route('PDX', 'DFW')
       flights.total_entries.should == '6'
       flights.total_pages.should == '3'
     end
 
     should "find a flight from one airport to another on a certain day" do
       stub_get('/airports/PDX/departures/DFW/20090911.xml', 'flight_path_date.xml')
-      flights = @flightcaster.flight_path_on('PDX', 'DFW', '20090911')
+      flights = @flightcaster.flight_route('PDX', 'DFW', '20090911')
       flights[0].id.should == 2877686
       flights.size.should == 22
     end

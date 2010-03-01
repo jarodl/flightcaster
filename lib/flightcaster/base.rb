@@ -77,23 +77,13 @@ module FlightCaster
     #   :per_page => The number of results per page. Defaults to 30.
     #   :page => The page of results displayed.
     def flights_by_airline(airline_id, flight_number=nil, date=nil, params={})
-      if flight_number && date
-        t = convert_date(date)
-        perform_get("/airlines/#{airline_id}/flights/#{flight_number}/#{t}.xml", params)
-      elsif flight_number
-        perform_get("/airlines/#{airline_id}/flights/#{flight_number}.xml", params)
-      else
-        perform_get("/airlines/#{airline_id}/flights.xml", params)
-      end
+      args = [airline_id, 'flights', flight_number, format(date)].compact.join('/')
+      perform_get("/airlines/#{args}.xml", params)
     end
 
     def flight_route(origin, destination, date=nil, params={})
-      if date
-        t = convert_date(date)
-        perform_get("/airports/#{origin}/departures/#{destination}/#{t}.xml", params)
-      else
-        perform_get("/airports/#{origin}/departures/#{destination}.xml", params)
-      end
+      args = [origin, 'departures', destination, format(date)].compact.join('/')
+      perform_get("/airports/#{args}.xml", params)
     end
 
     def metars(params={})
@@ -142,7 +132,7 @@ module FlightCaster
       FlightCaster::Request.get(path, params)
     end
 
-    def convert_date(date)
+    def format(date)
       if date.class == Time
         date.strftime("%Y%m%d")
       else

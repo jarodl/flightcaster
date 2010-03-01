@@ -11,7 +11,7 @@ module FlightCaster
     end
 
     def_delegators :@hash, :id, :replace, :each_key, :keys, :delete,
-                        :[], :[]=, :merge!, :method_missing
+                   :merge!, :method_missing
     def_delegators :@array, :each, :size, :[]
 
     private

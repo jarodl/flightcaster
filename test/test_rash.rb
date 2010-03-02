@@ -1,6 +1,6 @@
 require 'helper'
 
-class TestResult < Test::Unit::TestCase
+class TestRash < Test::Unit::TestCase
   def setup
     stub_get('/flights.xml', 'flights.xml')
     FlightCaster::Request.set_api_key('foo')
@@ -9,11 +9,11 @@ class TestResult < Test::Unit::TestCase
 
   context "Initialization" do
     should "require data" do
-      lambda { FlightCaster::Result.new }.should raise_error
+      lambda { FlightCaster::Rash.new }.should raise_error
     end
   end
 
-  context "After initialization, Result" do
+  context "After initialization, Rash" do
     should "get rid of the outside hash" do
       @flights.flights.should == nil
     end

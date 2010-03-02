@@ -4,7 +4,7 @@ require 'hashie'
 
 [ "base",
   "request",
-  "result" ].each do |file|
+  "rash" ].each do |file|
   require File.join(File.dirname(__FILE__), 'flightcaster', file)
 end
 

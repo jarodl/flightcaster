@@ -5,23 +5,23 @@
 
 Gem::Specification.new do |s|
   s.name = %q{flightcaster}
-  s.version = "0.1.1"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jarod Luebbert"]
-  s.date = %q{2010-02-26}
+  s.date = %q{2010-03-01}
   s.description = %q{Simple interaction with the flightcaster API. Look up
     flight predictions and information.}
   s.email = %q{jarod.luebbert@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+     "README.md"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
-     "README.rdoc",
+     "README.md",
      "Rakefile",
      "VERSION",
      "examples/flights.rb",
@@ -29,7 +29,6 @@ Gem::Specification.new do |s|
      "lib/flightcaster.rb",
      "lib/flightcaster/base.rb",
      "lib/flightcaster/request.rb",
-     "lib/flightcaster/result.rb",
      "test/fixtures/airline.xml",
      "test/fixtures/airline_flight.xml",
      "test/fixtures/airline_flights.xml",
@@ -60,7 +59,8 @@ Gem::Specification.new do |s|
      "test/helper.rb",
      "test/test_base.rb",
      "test/test_flightcaster.rb",
-     "test/test_request.rb"
+     "test/test_request.rb",
+     "test/test_result.rb"
   ]
   s.homepage = %q{http://github.com/jarodluebbert/flightcaster}
   s.rdoc_options = ["--charset=UTF-8"]
@@ -72,6 +72,7 @@ Gem::Specification.new do |s|
      "test/test_base.rb",
      "test/test_flightcaster.rb",
      "test/test_request.rb",
+     "test/test_result.rb",
      "examples/flights.rb"
   ]
 
@@ -80,14 +81,14 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 2.10.2"])
       s.add_development_dependency(%q<shoulda>, [">= 2.10.2"])
       s.add_development_dependency(%q<mhennemeyer-matchy>, [">= 0.3.3"])
       s.add_development_dependency(%q<fakeweb>, [">= 1.2.8"])
       s.add_runtime_dependency(%q<httparty>, [">= 0.5.2"])
       s.add_runtime_dependency(%q<hashie>, [">= 0.1.8"])
     else
-      s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_dependency(%q<thoughtbot-shoulda>, [">= 2.10.2"])
       s.add_dependency(%q<shoulda>, [">= 2.10.2"])
       s.add_dependency(%q<mhennemeyer-matchy>, [">= 0.3.3"])
       s.add_dependency(%q<fakeweb>, [">= 1.2.8"])
@@ -95,7 +96,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<hashie>, [">= 0.1.8"])
     end
   else
-    s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+    s.add_dependency(%q<thoughtbot-shoulda>, [">= 2.10.2"])
     s.add_dependency(%q<shoulda>, [">= 2.10.2"])
     s.add_dependency(%q<mhennemeyer-matchy>, [">= 0.3.3"])
     s.add_dependency(%q<fakeweb>, [">= 1.2.8"])

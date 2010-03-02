@@ -12,8 +12,8 @@ key](http://docs.flightcaster.com/).
     # retrieve all flights
     flights = flightcaster.flights
 
-    # get a flight by airline and flight number
-    flight = flightcaster.flight_by_airline('VX', 28)
+    # get flights by airline and flight number
+    flight = flightcaster.flights_by_airline('VX', 28)
 
 See more in the [examples
 directory](http://github.com/jarodluebbert/flightcaster/tree/master/examples/).

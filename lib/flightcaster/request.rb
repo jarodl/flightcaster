@@ -1,7 +1,7 @@
 module FlightCaster
   class Request
-
     API_ROOT = "http://api.flightcaster.com"
+    API_VERSION = "0.1.1"
 
     def self.set_api_key(api_key)
       @api_key = api_key
@@ -15,7 +15,7 @@ module FlightCaster
 
     def self.full_uri(path, params={})
       options = expand(params)
-      "#{API_ROOT}#{path}?api_key=#{@api_key}#{options}"
+      "#{API_ROOT}#{path}?api_key=#{@api_key}&api_version=#{API_VERSION}#{options}"
     end
 
     def self.make_friendly(response)

@@ -14,7 +14,7 @@ class Test::Unit::TestCase
 end
 
 def flightcaster_url(path, params)
-  "http://api.flightcaster.com#{path}?api_key=foo#{params}"
+  "http://api.flightcaster.com#{path}?api_key=foo&api_version=0.1.1#{params}"
 end
 
 def fixture_file(filename)
